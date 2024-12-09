@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Smart LED Bulb",
+        "description": "Wi-Fi enabled smart LED bulb with adjustable brightness and color.",
+        "price": 29.99,
+        "stock": 75,
+        "image": "/images/product-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "LED Desk Lamp",
+        "description": "Adjustable LED desk lamp with touch control.",
+        "price": 39.99,
+        "stock": 100,
+        "image": "/images/product-1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "LED Ceiling Light",
+        "description": "Modern LED ceiling light with remote control.",
+        "price": 59.99,
+        "stock": 80,
+        "image": "/images/product-1.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Smart LED Bulb",
+        "description": "Wi-Fi enabled smart LED bulb with adjustable brightness and color.",
+        "price": 29.99,
+        "stock": 75,
+        "image": "/images/product-1.jpg"
+    },
+    {
+        "id": 5,
+        "name": "LED Desk Lamp",
+        "description": "Adjustable LED desk lamp with touch control.",
+        "price": 39.99,
+        "stock": 100,
+        "image": "/images/product-1.jpg"
+    },
+    {
+        "id": 6,
+        "name": "LED Ceiling Light",
+        "description": "Modern LED ceiling light with remote control.",
+        "price": 59.99,
+        "stock": 80,
+        "image": "/images/product-1.jpg"
+    },
+    {
+        "id": 7,
+        "name": "LED Ceiling Light",
+        "description": "Modern LED ceiling light with remote control.",
+        "price": 59.99,
+        "stock": 80,
+        "image": "/images/product-1.jpg"
+    },
+    {
+        "id": 8,
+        "name": "LED Ceiling Light",
+        "description": "Modern LED ceiling light with remote control.",
+        "price": 59.99,
+        "stock": 80,
+        "image": "/images/product-1.jpg"
+    }
+]
