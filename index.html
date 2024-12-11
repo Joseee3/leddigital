@@ -22,11 +22,8 @@
                     <li><a href="products.html">Productos</a></li>
                     <li><a href="about.html">Nosotros</a></li>
                     <li><a href="contact.html">Contáctanos</a></li>
-                    <li><a href="account.html">Account</a></li>
                 </ul>
             </nav>
-            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
-            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
         </div>
         <div class="row">
             <div class="col-2">
@@ -42,183 +39,28 @@
 </div>
 
 <!-------- featured categories -------->
-    <div class="categories">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <img src="images/local/muestra.JPG">
-                </div>
-                <div class="col-3">
-                    <img src="images/local/local.JPG">
-                </div>
-                <div class="col-3">
-                    <img src="images/local/vitrina.jpeg">
-                </div>
-        </div>
-        </div>
-
-    </div>
+<h2 class="categorias-destacadas-titulo">Categorías Destacadas</h2>
+<div id="featured-categories" class="featured-categories">
+    <!-- Las tarjetas de categorías se generarán dinámicamente aquí -->
+</div>
+<!-------- Ofertas -------->
+<!-------- Ofertas -------->
+<h2>Ofertas</h2>
+<div id="offers-container" class="offers-container">
+    <!-- Las ofertas se renderizarán dinámicamente aquí -->
+</div>
 <!-------- featured products -------->
-    <div class="small-container">
-        <h2 class="title">Nuestros productos</h2>
-        <div class="row">
-            <div class="col-4">
-                <a href="product-details.html"><img src="images/productos/CINTA_COB.psd.png"></a>
-               <a href=""> <h4>souvlaki</h4></a>
-                <div class="rating">
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>₹200.00</p>   
-            </div>
-            <div class="col-4">
-                <img src="images/productos/CINTA_COB.psd.png">
-                <h4>Sushi</h4>
-                <div class="rating">
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star-half-o" ></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>₹350.00</p>   
-            </div>
-            <div class="col-4">
-                <a href="product-details2.html">
-                <img src="images/productos/CINTA_COB.psd.png" alt="Descripción del Producto" onerror="this.onerror=null; this.src='images/default.jpg';">
-                </a>
-                <h4>Biryani</h4>
-                <div class="rating">
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-                <p>₹400.00</p>   
-            </div>
-            <div class="col-4">
-                <img src="images/productos/CINTA_COB.psd.png">
-                <h4>Kunafa</h4>
-                <div class="rating">
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>₹300.00</p>   
-            </div>
-         </div>
-         <h2 class="title">Most Served</h2>
-         <div class="row">
-            <div class="col-4">
-                <img src="images/productos/CINTA_COB.psd.png">>
-                <h4>Panner Butter Masala</h4>
-                <div class="rating">
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>₹200.00</p>   
-            </div>
-            <div class="col-4">
-                <img src="images/productos/CINTA_COB.psd.png">
-                <h4>Malai Kofta</h4>
-                <div class="rating">
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star-half-o" ></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>₹320.00</p>   
-            </div>
-            <div class="col-4">
-                <img src="images/productos/CINTA_COB.psd.png">
-                <h4>Aloo tikki</h4>
-                <div class="rating">
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-                <p>₹150.00</p>   
-            </div>
-            <div class="col-4">
-                <img src="images/productos/CINTA_COB.psd.png">
-                <h4>Butter Garlic Naan</h4>
-                <div class="rating">
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>₹80.00</p>   
-            </div>
-         </div>
-         <div class="row">
-            <div class="col-4">
-                <img src="images/productos/CINTA_COB.psd.png">
-                <h4>Madras Chicken Curry</h4>
-                <div class="rating">
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>₹350.00</p>   
-            </div>
-            <div class="col-4">
-                <img src="images/productos/CINTA_COB.psd.png">
-                <h4>Aloo Pharatha</h4>
-                <div class="rating">
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star-half-o" ></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>₹150.00</p>   
-            </div>
-            <div class="col-4">
-                <img src="images/productos/CINTA_COB.psd.png">
-                <h4>Badam Kheer </h4>
-                <div class="rating">
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-                <p>₹150.00</p>   
-            </div>
-            <div class="col-4">
-                <img src="images/productos/CINTA_COB.psd.png">
-                <h4>Shrikhand</h4>
-                <div class="rating">
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star" ></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>₹150.00</p>   
-            </div>
-         </div>
-    </div>
+<h2 class="categorias-destacadas-titulo">Productos</h2>
+<div id="products-container" class="products-container">
+    <!-- Los productos se renderizarán dinámicamente aquí -->
+</div>
+<button class="view-more-btn" onclick="window.location.href='products.html'">Ver más productos</button>
+
 
 <!------- testimonial------->
     <div class="testimonial">
         <div class="small-container">
+            <h2>Testimonios</h2>
             <div class="row">
               <div class="col-3">
                 <i class="fa fa-quote-left" ></i>
@@ -313,6 +155,10 @@
                 }
         }
     </script>
+    <script type="module" src="main.js" defer></script>
+    <script src="categories.js" defer></script>
+    <script src="offers.js" defer></script>
+    <script src="load_products.js" defer></script>
 
 </body>
 </html>

@@ -4,8 +4,442 @@
     box-sizing: border-box;
 }
 
-body{
+/* Estilos Generales */
+body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 100%;
+    padding: 0 20px;
+}
+
+
+.navbar-dark ul {
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar-dark ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-dark ul li a:hover {
+    color: black; /* Color WhatsApp */
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+/* Responsividad para Menú */
+@media (max-width: 768px) {
+    .navbar-dark {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .navbar-dark.active {
+        display: flex;
+    }
+    
+    .menu-icon {
+        display: block;
+    }
+}
+
+/* --- Sección de Categorías Destacadas --- */
+.featured-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrar las tarjetas */
+    gap: 20px;
+    padding: 20px;
+}
+
+.category-card {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+}
+
+.category-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.category-card:hover img {
+    transform: scale(1.1);
+}
+
+.category-overlay {
+    position: absolute;
+    top: 0; /* Cambiar a cubrir toda la imagen */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Fondo semi-transparente */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.category-card:hover .category-overlay {
+    opacity: 1;
+}
+
+.category-overlay h3 {
+    margin: 0;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+/* Estilo para los títulos */
+h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.8em; /* Tamaño de letra más grande */
+    font-weight: bold; /* Negrita */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    position: relative; /* Para el pseudo-elemento */
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 5px;
+    background-color: #007bff; /* Color de la línea */
+    margin: 10px auto 0; /* Centrar la línea */
+    border-radius: 5px; /* Esquinas redondeadas */
+}
+
+/* Estilo específico para el título "Categorías Destacadas" */
+.categorias-destacadas-titulo {
+    margin-top: 100px; /* Ajusta el valor según sea necesario */
+}
+
+/* Estilo para el botón "Ver más productos" */
+.view-more-btn {
+    display: block;
+    margin: 20px auto; /* Centrar el botón */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px; /* Tamaño de letra más grande */
+}
+
+.view-more-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Centrar el contenedor de productos */
+.products-container {
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos hijos se apilen verticalmente */
+    align-items: center; /* Centra los elementos hijos horizontalmente */
+    gap: 20px; /* Espacio entre los productos */
+    padding: 20px;
+    margin: 0 auto; /* Centrar el contenedor */
+    max-width: 1200px; /* Ancho máximo del contenedor */
+}
+
+/* Estilo para los elementos de producto */
+.product-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el botón "Ver más productos" */
+.view-more-btn {
+    display: block;
+    margin: 20px auto; /* Centrar el botón */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px; /* Tamaño de letra más grande */
+}
+
+.view-more-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Diseño diferente para ofertas */
+.offer-item {
+    border: 2px solid #ff0000;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    position: relative;
+}
+
+.offer-item .offer-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff0000;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.offer-item .precio-original {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.offer-item .precio-oferta {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Contenedor principal centrado */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    max-width: 1200px; /* Ancho máximo según tu diseño */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    padding: 20px;
+}
+
+/* Ajustes para las secciones */
+.featured-categories, .offers-container, .products-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los elementos dentro de cada sección */
+    gap: 20px; /* Espacio entre elementos */
+}
+
+/* Ejemplo de estilizado para los items para que se vean mejor centrados */
+.product-item, .offer-item, .category-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px; /* Ancho fijo o responsive */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.product-item:hover, .offer-item:hover, .category-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Asegurar que los títulos estén centrados */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Contenedor de Filtros de Categoría */
+.category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Botones de Filtro */
+.filter-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+/* Efecto al Pasar el Cursor */
+.filter-btn:hover {
+    background-color: #ddd;
+    transform: scale(1.05);
+}
+
+/* Estado Activo del Botón */
+.filter-btn.active {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Detalles del Producto */
+.product-detail {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-detail .col-2 {
+    flex: 1;
+    min-width: 300px;
+}
+
+.product-detail img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.product-detail h1 {
+    font-size: 2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product-detail h4 {
+    color: black;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.product-detail select {
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 200px;
+}
+
+/* Actualización de los colores del botón de WhatsApp */
+/* Contenedor de Productos */
+#products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Espacio entre los productos */
+    padding: 20px;
+}
+
+/* Contenedor de la Imagen */
+/* Contenedor de la Imagen */
+.image-container {
+    width: 100%;
+    height: auto; /* Ajusta la altura automáticamente */
+    overflow: visible; /* Permite que el contenido sobresalga */
+    position: relative; /* Necesario para el posicionamiento del z-index */
+}
+
+/* Imagen del Producto */
+.image-container img {
+    width: 100%;
+    max-width: 300px; /* Tamaño actual de la imagen */
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease, z-index 0s ease 0.3s; /* Agregado z-index con retraso */
+    position: relative; /* Necesario para el uso de z-index */
+    z-index: 1; /* Nivel base */
+}
+
+.image-container img:hover {
+    transform: scale(1.2); /* Aumenta el zoom al 120% */
+    z-index: 10; /* Asegura que la imagen esté por delante */
+    transition: transform 0.3s ease, z-index 0s ease 0s; /* Elimina retraso en z-index */
+}
+/* Contenido del Producto */
+.product-content {
+    padding: 10px;
+    text-align: center;
+}
+
+.product-content h4 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.rating .fa-star,
+.rating .fa-star-half-o {
+    color: #FFD700; /* Color dorado */
+    margin-right: 2px;
+    font-size: 1em;
+}
+
+.rating .fa-star-o {
+    color: #ccc; /* Color gris */
+    margin-right: 2px;
+    font-size: 1em;
+}
+
+.whatsapp-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #25D366;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1DA851;
+}
+
+
+/* Efecto Zoom al Pasar el Cursor sobre la Imagen del Producto */
+
+/* Asegúrate de que las imágenes dentro de .product-card tengan posición relativa */
+.product-card img {
+    transition: transform 0.3s ease; /* Transición suave para el efecto */
+    cursor: pointer; /* Cambia el cursor para indicar interactividad */
+}
+
+/* Efecto de Zoom al Hover */
+.product-card img:hover {
+    transform: scale(1.35); /* Aumenta el tamaño de la imagen un 10% */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Añade sombra para resaltar */
 }
 
 .navbar{

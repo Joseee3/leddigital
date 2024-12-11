@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Products - Flavor Online | Restro</title>
+    <title>Productos - LED DIGITAL</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="products.css"> <!-- Archivo CSS específico para productos -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
 
     <div class="container">
         <div class="navbar">
@@ -21,72 +21,85 @@
                     <li><a href="products.html">Menu</a></li>
                     <li><a href="about.html">Nosotros</a></li>
                     <li><a href="contact.html">Contáctanos</a></li>
-                    <li><a href="account.html">Account</a></li>
                 </ul>
             </nav>
-            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" alt="Carrito"></a>
-            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" alt="Menú">
         </div> 
     </div>
 
-    <div class="small-container">
+        <div class="small-container">
         
         <div class="row row-2">
-            <h2>Starters</h2>
+            <h2>Productos</h2>
         </div>
-
+    
+        <!-- Buscador y Filtros -->
+        <div class="search-filter-container">
+            <!-- Buscador -->
+            <input type="text" id="search-input" placeholder="Buscar productos..." />
+    
+            <!-- Filtros por Categoría -->
+            <div class="filters">
+                <h3>Filtrar por Categoría</h3>
+                                <!-- Filtros de Categoría -->
+                <div id="category-filters" class="category-filters">
+                    <!-- Los botones de filtro se generarán dinámicamente aquí -->
+                </div>
+                
+                <!-- Contenedor de Productos -->
+                <div id="products-container">
+                    <!-- Los productos se renderizarán dinámicamente aquí -->
+                </div>
+                
+            </div>
+        </div>
+    
         <div class="row" id="products-container">
             <!-- Los productos se cargarán aquí dinámicamente -->
         </div>
-
-        <div class="page-btn">
-            <a href="products.html"><span>1</span></a>
-            <a href="products2.html"><span>2</span></a>
-            <a href="products3.html"><span>3</span></a>
-            <a href="products4.html"><span>4</span></a>
-            <a href="products.html"><span>&#8594;</span></a>
-        </div>
     </div>
 
-    <script src="load_products.js"></script>
-
+    <!-- Footer -->
     <div class="footer">
         <div class="container">
             <div class="row">
-                <div class="footer-col-1">
-                    <h3>Download Our App</h3>
-                    <p>Download App for Android and ios mobile phone</p>
-                    <div class="app-logo">
-                        <img src="images/play-store.png">
-                        <img src="images/app-store.png">
-                    </div>
-                </div>
                 <div class="footer-col-2">
-                    <img src="images/logo-1.png" >
-                    <p>One Cannot Think Well, Love Well, <br> Sleep Well, If One Has Not Dined Well</p>
+                    <img src="images/LOGO_LED.png" alt="Logo Footer">
+                    <p>Creamos y transformamos tus espacios con calidad y estilo </p>
                 </div>
                 <div class="footer-col-3">
-                    <h3>Useful Links</h3>
+                    <h3>Menú:</h3>
                     <ul>
-                        <li>Coupons</li>
-                        <li>Blog Post</li>
-                        <li>Return Policy</li>
-                        <li>Join Affiliate</li>
+                        <a href="/index.html"><li>Inicio</li></a>
+                        <a href="/products.html"><li>Productos</li></a>
+                        <a href="/about.html"><li>Nosotros</li></a>
                     </ul>
                 </div>
                 <div class="footer-col-4">
-                    <h3>Follow Us</h3>
+                    <h3>Síguenos:</h3>
                     <ul>
-                        <a  href=" https://www.facebook.com/" target="_blank"><li>Facebook</li></a>
-                        <a href="https://twitter.com/" target="_blank"><li>Twitter</li></a>
-                        <a href="https://www.instagram.com/" target="_blank"><li>Instagram</li></a>
-                        <a href="https://youtube.com/" target="_blank"><li>Youtube</li></a>-
+                        <a href="https://www.facebook.com/leddigitalpe" target="_blank"><li>Facebook</li></a>
+                        <a href="https://www.instagram.com/leddigital_peru/" target="_blank"><li>Instagram</li></a>
+                        <a href="https://www.tiktok.com/@leddigitalperu?lang=es" target="_blank"><li>TikTok</li></a>
                     </ul>
                 </div>
             </div>
             <hr>
-            <p class="Copyright">Copyright 2022-  Flavor Online </p>
+            <p class="Copyright">Copyright 2024 - LED DIGITAL</p>
         </div>
     </div>
+
+    <!-- Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <img id="modal-image" src="" alt="Producto" style="width:100%;">
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <p id="modal-price"></p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="load_products.js"></script>
 </body>
 </html>

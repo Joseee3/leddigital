@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     const productId = getQueryParam('id');
-    console.log("ID del producto:", productId);
+    console.log("Código del producto:", productId);
 
     if (!productId) {
         document.getElementById('product-details').innerHTML = '<p>Producto no encontrado.</p>';
@@ -29,42 +29,39 @@ document.addEventListener("DOMContentLoaded", function() {
         })
         .then(products => {
             console.log("Productos cargados:", products);
-            const product = products.find(p => p.id == productId);
+            // Busca el producto usando la propiedad 'Codigo'
+            const product = products.find(p => p.Codigo === productId);
 
             if (!product) {
                 document.getElementById('product-details').innerHTML = '<p>Producto no encontrado.</p>';
                 return;
             }
 
+            // Extraer y convertir los precios eliminando el símbolo de moneda
+            const precio = parseFloat(product.Precio.replace('S/', ''));
+            const costo = parseFloat(product.Costo.replace('S/', ''));
+
             const productElement = document.createElement('div');
             productElement.classList.add('product-detail');
 
             productElement.innerHTML = `
                 <div class="col-2">
-                    <img src="${product.image}" alt="${product.name}" id="ProductImg">
+                    <img src="${product.image || 'images/imagen-no-disponible.jpg'}" alt="${product.Producto}" id="ProductImg" onerror="this.onerror=null; this.src='images/imagen-no-disponible.jpg';">
                 </div>
                 <div class="col-2">
-                    <p><a href="products.html">Menu</a> / ${product.name}</p>
-                    <h1>${product.name}</h1>
-                    <h4>₹${product.price.toFixed(2)}</h4>
-                    <select>
-                        <option>Seleccione cantidad</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                    </select>
-                    <a href="#" class="btn">Agregar al Carrito</a>
+                    <p><a href="products.html" style = "color: red">Menú</a> / ${product.Producto}</p>
+                    <h1>${product.Producto}</h1>
+                    <h4>S/ ${precio.toFixed(2)}</h4>
+                    <a href="https://wa.me/1234567890?text=Hola,%20me%20interesa%20el%20producto%20${encodeURIComponent(product.Producto)}%20por%20S/%20${precio.toFixed(2)}." class="whatsapp-btn" target="_blank">Consultar en WhatsApp</a>
                     <h3>Detalles del Producto <i class="fa fa-indent"></i></h3>
-                    <br>
-                    <p>${product.description}</p>
+                    <p>${product.descripcion || 'No hay descripción disponible.'}</p>
                 </div>
             `;
 
             document.getElementById('product-details').appendChild(productElement);
         })
         .catch(error => {
-            console.error('Error al cargar los productos:', error);
+            console.error('Error al cargar los detalles del producto:', error);
             document.getElementById('product-details').innerHTML = '<p>Hubo un error al cargar los detalles del producto. Por favor, inténtalo de nuevo más tarde.</p>';
         });
 });
