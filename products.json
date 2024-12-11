@@ -123,7 +123,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/50.00",
       "Costo de Stock": "S/50.00",
-      "Precio": "S/65.00"
+      "Precio": "S/65.00",
+        "Categoria": "Acrilicos"
     },
     {
       "Codigo": "AV.ME",
@@ -133,7 +134,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/50.00",
       "Costo de Stock": "S/25.00",
-      "Precio": "S/65.00"
+      "Precio": "S/65.00",
+        "Categoria": "Acrilicos"
     },
     {
       "Codigo": "AR.ME",
@@ -143,7 +145,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/50.00",
       "Costo de Stock": "S/25.00",
-      "Precio": "S/65.00"
+      "Precio": "S/65.00",
+        "Categoria": "Acrilicos"
     },
     {
       "Codigo": "CA",
@@ -153,7 +156,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/0.80",
       "Costo de Stock": "S/72.00",
-      "Precio": "S/1.30"
+      "Precio": "S/1.30",
+        "Categoria": "Cables"
     },
     {
       "Codigo": "CB",
@@ -163,7 +167,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/0.80",
       "Costo de Stock": "S/72.00",
-      "Precio": "S/1.30"
+      "Precio": "S/1.30",
+        "Categoria": "Cables"
     },
     {
       "Codigo": "WALL.C",
@@ -173,7 +178,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/15.00",
       "Costo de Stock": "S/240.00",
-      "Precio": "S/30.00"
+      "Precio": "S/30.00",
+        "Categoria": "Wall Panel"
     },
     {
       "Codigo": "WALL.P",
@@ -183,7 +189,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/26.00",
       "Costo de Stock": "S/52.00",
-      "Precio": "S/30.00"
+      "Precio": "S/30.00",
+        "Categoria": "Wall Panel"
     },
     {
       "Codigo": "WALL.N",
@@ -193,7 +200,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/15.00",
       "Costo de Stock": "S/150.00",
-      "Precio": "S/30.00"
+      "Precio": "S/30.00",
+      "Categoria":"Wall Panel"
     },
     {
       "Codigo": "WALL.M",
@@ -203,7 +211,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/15.00",
       "Costo de Stock": "S/360.00",
-      "Precio": "S/30.00"
+      "Precio": "S/30.00",
+      "Categoria":"Wall Panel"
     },
     {
       "Codigo": "T,WF CELU",
@@ -213,7 +222,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/25.00",
       "Costo de Stock": "S/25.00",
-      "Precio": "S/45.00"
+      "Precio": "S/45.00",
+      "Categoria": "Tarjetas"
     },
     {
       "Codigo": "TWIFI",
@@ -223,7 +233,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/35.00",
       "Costo de Stock": "S/35.00",
-      "Precio": "S/75.00"
+      "Precio": "S/75.00",
+      "Categoria": "Tarjetas"
     },
     {
       "Codigo": "U6A",
@@ -233,7 +244,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/15.00",
       "Costo de Stock": "S/30.00",
-      "Precio": "S/38.00"
+      "Precio": "S/38.00",
+      "Categoria": "Controladores"
     },
     {
       "Codigo": "C RGB 220V",
@@ -243,7 +255,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/22.00",
       "Costo de Stock": "S/44.00",
-      "Precio": "S/38.00"
+      "Precio": "S/38.00",
+      "Categoria": "Controladores"
     },
     {
       "Codigo": "CRIT.RGB",
@@ -253,7 +266,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/12.00",
       "Costo de Stock": "S/36.00",
-      "Precio": "S/18.00"
+      "Precio": "S/18.00",
+      "Categoria": "Controladores"
     },
     {
       "Codigo": "CRGB.24BT",
@@ -263,7 +277,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/8.00",
       "Costo de Stock": "S/0.00",
-      "Precio": "S/12.00"
+      "Precio": "S/12.00",
+      "Categoria": "Controladores"
     },
     {
       "Codigo": "CRGB.40BOTONES",
@@ -273,7 +288,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/5.00",
       "Costo de Stock": "S/25.00",
-      "Precio": "S/15.00"
+      "Precio": "S/15.00",
+      "Categoria": "Controladores"
     },
     {
       "Codigo": "C.PIXEL",
@@ -283,7 +299,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/9.00",
       "Costo de Stock": "S/45.00",
-      "Precio": "S/15.00"
+      "Precio": "S/15.00",
+      "Categoria": "Controladores"
     },
     {
       "Codigo": "CHC.RGB",
@@ -293,7 +310,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/28.00",
       "Costo de Stock": "S/56.00",
-      "Precio": "S/60.00"
+      "Precio": "S/60.00",
+      "Categoria": "Controladores"
     },
     {
       "Codigo": "CBLEU",
@@ -303,7 +321,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/16.00",
       "Costo de Stock": "S/96.00",
-      "Precio": "S/26.00"
+      "Precio": "S/26.00",
+      "Categoria": "Controladores"
     },
     {
       "Codigo": "RL.50W",
@@ -313,7 +332,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/26.00",
       "Costo de Stock": "S/260.00",
-      "Precio": "S/55.00"
+      "Precio": "S/55.00",
+      "Categoria": "Reflectores"
     },
     {
       "Codigo": "RL.100W",
@@ -323,7 +343,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/45.00",
       "Costo de Stock": "S/135.00",
-      "Precio": "S/80.00"
+      "Precio": "S/80.00",
+      "Categoria": "Reflectores"
     },
     {
       "Codigo": "LT.P5",
@@ -333,7 +354,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/500.00",
       "Costo de Stock": "S/1,000.00",
-      "Precio": "S/780.00"
+      "Precio": "S/780.00",
+      "Categoria": "Letreros"
     },
     {
       "Codigo": "Z1315F",
@@ -343,7 +365,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/130.00",
       "Costo de Stock": "S/520.00",
-      "Precio": "S/200.00"
+      "Precio": "S/200.00",
+      "Categoria": "Letreros"
     },
     {
       "Codigo": "TRANSPARENTES",
@@ -353,7 +376,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/86.00",
       "Costo de Stock": "S/172.00",
-      "Precio": "S/140.00"
+      "Precio": "S/140.00",
+      "Categoria": "Grinaldas"
     },
     {
       "Codigo": "PAVONADO",
@@ -363,7 +387,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/72.00",
       "Costo de Stock": "S/144.00",
-      "Precio": "S/120.00"
+      "Precio": "S/120.00",
+      "Categoria": "Grinaldas"
     },
     {
       "Codigo": "PERA",
@@ -373,7 +398,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/153.00",
       "Costo de Stock": "S/153.00",
-      "Precio": "S/193.00"
+      "Precio": "S/193.00",
+      "Categoria": "Grinaldas"
     },
     {
       "Codigo": "CORT.LILA",
@@ -383,7 +409,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/35.00",
       "Costo de Stock": "S/35.00",
-      "Precio": "S/50.00"
+      "Precio": "S/50.00",
+      "Categoria": "Cortinas"
     },
     {
       "Codigo": "COR.BLANCA",
@@ -393,7 +420,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/35.00",
       "Costo de Stock": "S/175.00",
-      "Precio": "S/50.00"
+      "Precio": "S/50.00",
+      "Categoria": "Cortinas"
     },
     {
       "Codigo": "CORT.10TIRAS",
@@ -403,7 +431,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/39.00",
       "Costo de Stock": "S/39.00",
-      "Precio": "S/50.00"
+      "Precio": "S/50.00",
+      "Categoria": "Cortinas"
     },
     {
       "Codigo": "PAA3MM",
@@ -413,7 +442,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/25.00",
       "Costo de Stock": "S/375.00",
-      "Precio": "S/45.00"
+      "Precio": "S/45.00",
+      "Categoria": "Perfiles"
     },
     {
       "Codigo": "PA3MM",
@@ -423,7 +453,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/17.00",
       "Costo de Stock": "S/255.00",
-      "Precio": "S/37.00"
+      "Precio": "S/37.00",
+      "Categoria": "Perfiles"
     },
     {
       "Codigo": "P.PLANO 3MM",
@@ -433,7 +464,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/11.50",
       "Costo de Stock": "S/138.00",
-      "Precio": "S/32.00"
+      "Precio": "S/32.00",
+      "Categoria": "Perfiles"
     },
     {
       "Codigo": "P.3MM",
@@ -443,7 +475,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/11.50",
       "Costo de Stock": "S/138.00",
-      "Precio": "S/32.00"
+      "Precio": "S/32.00",
+      "Categoria": "Perfiles"
     },
     {
       "Codigo": "P.PLANO",
@@ -453,7 +486,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/8.00",
       "Costo de Stock": "S/40.00",
-      "Precio": "S/20.00"
+      "Precio": "S/20.00",
+      "Categoria": "Perfiles"
     },
     {
       "Codigo": "P.N01",
@@ -463,7 +497,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/8.00",
       "Costo de Stock": "S/96.00",
-      "Precio": "S/20.00"
+      "Precio": "S/20.00",
+      "Categoria": "Perfiles"
     },
     {
       "Codigo": "CEL 10MM",
@@ -473,7 +508,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/92.00",
       "Costo de Stock": "S/92.00",
-      "Precio": "S/135.00"
+      "Precio": "S/135.00",
+      "Categoria": "Celtex"
     },
     {
       "Codigo": "celt5mm",
@@ -483,7 +519,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/45.00",
       "Costo de Stock": "S/270.00",
-      "Precio": "S/65.00"
+      "Precio": "S/65.00",
+      "Categoria": "Celtex"
     },
     {
       "Codigo": "CEL3MM",
@@ -493,7 +530,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/29.00",
       "Costo de Stock": "S/145.00",
-      "Precio": "S/35.00"
+      "Precio": "S/35.00",
+      "Categoria": "Celtex"
     },
     {
       "Codigo": "CCW60",
@@ -503,7 +541,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/20.00",
       "Costo de Stock": "S/740.00",
-      "Precio": "S/30.00"
+      "Precio": "S/30.00",
+      "Categoria": "Cintas"
     },
     {
       "Codigo": "NB",
@@ -513,7 +552,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/17.00",
       "Costo de Stock": "S/0.00",
-      "Precio": "S/30.00"
+      "Precio": "S/30.00",
+      "Categoria": "Neon"
     },
     {
       "Codigo": "WALL",
@@ -523,7 +563,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/15.00",
       "Costo de Stock": "S/195.00",
-      "Precio": "S/30.00"
+      "Precio": "S/30.00",
+      "Categoria": "Wall Panel"
     },
     {
       "Codigo": "WALL.B",
@@ -533,7 +574,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/26.00",
       "Costo de Stock": "S/312.00",
-      "Precio": "S/30.00"
+      "Precio": "S/30.00",
+      "Categoria": "Wall Panel"
     },
     {
       "Codigo": "N.C",
@@ -543,7 +585,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/17.00",
       "Costo de Stock": "S/187.00",
-      "Precio": "S/30.00"
+      "Precio": "S/30.00",
+      "Categoria": "Neon"
     },
     {
       "Codigo": "ZIGZAG.CW",
@@ -553,7 +596,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/30.00",
       "Costo de Stock": "S/60.00",
-      "Precio": "S/45.00"
+      "Precio": "S/45.00",
+      "Categoria": "Cintas"
     },
     {
       "Codigo": "ZIGZAG.RED",
@@ -563,7 +607,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/30.00",
       "Costo de Stock": "S/60.00",
-      "Precio": "S/45.00"
+      "Precio": "S/45.00",
+      "Categoria": "Cintas"
     },
     {
       "Codigo": "ZIGZAG.LP",
@@ -573,7 +618,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/30.00",
       "Costo de Stock": "S/60.00",
-      "Precio": "S/45.00"
+      "Precio": "S/45.00",
+      "Categoria": "Cintas"
     },
     {
       "Codigo": "ZIGZAG.PU",
@@ -583,7 +629,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/30.00",
       "Costo de Stock": "S/60.00",
-      "Precio": "S/45.00"
+      "Precio": "S/45.00",
+      "Categoria": "Cintas"
     },
     {
       "Codigo": "ZIGZAG.IC",
@@ -593,7 +640,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/30.00",
       "Costo de Stock": "S/60.00",
-      "Precio": "S/45.00"
+      "Precio": "S/45.00",
+      "Categoria": "Cintas"
     },
     {
       "Codigo": "ZIGZAG.DG",
@@ -603,7 +651,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/30.00",
       "Costo de Stock": "S/150.00",
-      "Precio": "S/45.00"
+      "Precio": "S/45.00",
+      "Categoria": "Cintas"
     },
     {
       "Codigo": "ZIGZAG.WW",
@@ -613,7 +662,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/30.00",
       "Costo de Stock": "S/60.00",
-      "Precio": "S/45.00"
+      "Precio": "S/45.00",
+      "Categoria": "Cintas"
     },
     {
       "Codigo": "ZIGZAG.B",
@@ -623,7 +673,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/30.00",
       "Costo de Stock": "S/60.00",
-      "Precio": "S/45.00"
+      "Precio": "S/45.00",
+      "Categoria": "Cintas"
     },
     {
       "Codigo": "ZIGZAG.LY",
@@ -633,7 +684,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/30.00",
       "Costo de Stock": "S/60.00",
-      "Precio": "S/45.00"
+      "Precio": "S/45.00",
+      "Categoria": "Cintas"
     },
     {
       "Codigo": "ZIGZAG,YE",
@@ -666,7 +718,8 @@
       "Costo": "S/25.00",
       "Costo de Stock": "S/125.00",
       "Precio": "S/45.00",
-      "image": "images/productos/CINTA_COB.psd.png"
+      "image": "images/productos/CINTA_COB.psd.png",
+      "Categoria": "Cintas"
     },
     {
       "Codigo": "COB.B",
@@ -676,7 +729,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/25.00",
       "Costo de Stock": "S/75.00",
-      "Precio": "S/30.00"
+      "Precio": "S/30.00",
+      "Categoria": "Cintas"
     },
     {
       "Codigo": "COB.WW",
@@ -686,7 +740,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/25.00",
       "Costo de Stock": "S/75.00",
-      "Precio": "S/45.00"
+      "Precio": "S/45.00",
+      "Categoria": "Cintas"
     },
     {
       "Codigo": "COB.Y",
@@ -696,7 +751,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/25.00",
       "Costo de Stock": "S/75.00",
-      "Precio": "S/45.00"
+      "Precio": "S/45.00",
+      "Categoria": "Cintas"
     },
     {
       "Codigo": "COB.R",
@@ -706,7 +762,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/25.00",
       "Costo de Stock": "S/75.00",
-      "Precio": "S/45.00"
+      "Precio": "S/45.00",
+      "Categoria": "Cintas"
     },
     {
       "Codigo": "COB.P",
@@ -716,7 +773,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/25.00",
       "Costo de Stock": "S/75.00",
-      "Precio": "S/45.00"
+      "Precio": "S/45.00",
+      "Categoria": "Cintas"
     },
     {
       "Codigo": "COB.G",
@@ -726,7 +784,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/25.00",
       "Costo de Stock": "S/75.00",
-      "Precio": "S/45.00"
+      "Precio": "S/45.00",
+      "Categoria": "Cintas"
     },
     {
       "Codigo": "NURB",
@@ -736,7 +795,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/11.00",
       "Costo de Stock": "S/55.00",
-      "Precio": "S/15.00"
+      "Precio": "S/15.00",
+      "Categoria": "Neon"
     },
     {
       "Codigo": "NUB",
@@ -746,7 +806,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/11.00",
       "Costo de Stock": "S/110.00",
-      "Precio": "S/15.00"
+      "Precio": "S/15.00",
+      "Categoria": "Neon"
     },
     {
       "Codigo": "NUNA",
@@ -756,7 +817,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/11.00",
       "Costo de Stock": "S/55.00",
-      "Precio": "S/15.00"
+      "Precio": "S/15.00",
+      "Categoria": "Neon"
     },
     {
       "Codigo": "NUAM",
@@ -766,7 +828,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/11.00",
       "Costo de Stock": "S/55.00",
-      "Precio": "S/15.00"
+      "Precio": "S/15.00",
+      "Categoria": "Neon"
     },
     {
       "Codigo": "NURJ",
@@ -776,7 +839,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/11.00",
       "Costo de Stock": "S/55.00",
-      "Precio": "S/15.00"
+      "Precio": "S/15.00",
+      "Categoria": "Neon"
     },
     {
       "Codigo": "NUM",
@@ -786,7 +850,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/11.00",
       "Costo de Stock": "S/55.00",
-      "Precio": "S/15.00"
+      "Precio": "S/15.00",
+      "Categoria": "Neon"
     },
     {
       "Codigo": "NUR",
@@ -796,7 +861,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/11.00",
       "Costo de Stock": "S/55.00",
-      "Precio": "S/15.00"
+      "Precio": "S/15.00",
+      "Categoria": "Neon"
     },
     {
       "Codigo": "N.U.T",
@@ -806,7 +872,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/11.00",
       "Costo de Stock": "S/55.00",
-      "Precio": "S/15.00"
+      "Precio": "S/15.00",
+      "Categoria": "Neon"
     },
     {
       "Codigo": "NRGB",
@@ -816,7 +883,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/50.00",
       "Costo de Stock": "S/250.00",
-      "Precio": "S/75.00"
+      "Precio": "S/75.00",
+      "Categoria": "Neon"
     },
     {
       "Codigo": "NM.07",
@@ -826,7 +894,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/17.00",
       "Costo de Stock": "S/51.00",
-      "Precio": "S/30.00"
+      "Precio": "S/30.00",
+      "Categoria": "Neon"
     },
     {
       "Codigo": "NR.06",
@@ -836,7 +905,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/17.00",
       "Costo de Stock": "S/68.00",
-      "Precio": "S/30.00"
+      "Precio": "S/30.00",
+      "Categoria": "Neon"
     },
     {
       "Codigo": "NC06",
@@ -846,7 +916,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/17.00",
       "Costo de Stock": "S/0.00",
-      "Precio": "S/30.00"
+      "Precio": "S/30.00",
+      "Categoria": "Neon"
     },
     {
       "Codigo": "NR.05",
@@ -856,7 +927,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/17.00",
       "Costo de Stock": "S/68.00",
-      "Precio": "S/30.00"
+      "Precio": "S/30.00",
+      "Categoria": "Neon"
     },
     {
       "Codigo": "NAZ.04",
@@ -866,7 +938,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/17.00",
       "Costo de Stock": "S/51.00",
-      "Precio": "S/30.00"
+      "Precio": "S/30.00",
+      "Categoria": "Neon"
     },
     {
       "Codigo": "NV.03",
@@ -887,7 +960,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/17.00",
       "Costo de Stock": "S/85.00",
-      "Precio": "S/30.00"
+      "Precio": "S/30.00",
+      "Categoria": "Neon"
     },
     {
       "Codigo": "NAC02",
@@ -897,7 +971,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/17.00",
       "Costo de Stock": "S/102.00",
-      "Precio": "S/30.00"
+      "Precio": "S/30.00",
+      "Categoria": "Neon"
     },
     {
       "Codigo": "NAM.01",
@@ -907,7 +982,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/17.00",
       "Costo de Stock": "S/34.00",
-      "Precio": "S/30.00"
+      "Precio": "S/30.00",
+      "Categoria": "Neon"
     },
     {
       "Codigo": "KIT",
@@ -917,7 +993,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/60.00",
       "Costo de Stock": "S/180.00",
-      "Precio": "S/98.00"
+      "Precio": "S/98.00",
+      "Categoria": "Neon"
     },
     {
       "Codigo": "CH12V",
@@ -927,7 +1004,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/1.00",
       "Costo de Stock": "S/22.00",
-      "Precio": "S/2.00"
+      "Precio": "S/2.00",
+      "Categoria": "Conectores"
     },
     {
       "Codigo": "CLO 001",
@@ -937,7 +1015,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/33.00",
       "Costo de Stock": "S/264.00",
-      "Precio": "S/43.00"
+      "Precio": "S/43.00",
+      "Categoria": "Quimicos"
     },
     {
       "Codigo": "CA3M",
@@ -947,7 +1026,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/3.50",
       "Costo de Stock": "S/3.50",
-      "Precio": "S/5.50"
+      "Precio": "S/5.50",
+      "Categoria": "Cintas"
     },
     {
       "Codigo": "C10X10",
@@ -957,7 +1037,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/1.00",
       "Costo de Stock": "S/35.00",
-      "Precio": "S/2.20"
+      "Precio": "S/2.20",
+      "Categoria": "Canalizaciones"
     },
     {
       "Codigo": "C10X15",
@@ -967,7 +1048,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/1.30",
       "Costo de Stock": "S/39.00",
-      "Precio": "S/2.50"
+      "Precio": "S/2.50",
+      "Categoria": "Canalizaciones"
     },
     {
       "Codigo": "TEM.",
@@ -1010,7 +1092,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/1.60",
       "Costo de Stock": "S/144.00",
-      "Precio": "S/3.50"
+      "Precio": "S/3.50",
+        "Categoria": "Cables"
     },
     {
       "Codigo": "CUP04",
@@ -1020,7 +1103,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/0.32",
       "Costo de Stock": "S/156.80",
-      "Precio": "S/0.50"
+      "Precio": "S/0.50",
+        "Categoria": "Cables"
     },
     {
       "Codigo": "CUN03",
@@ -1030,7 +1114,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/0.32",
       "Costo de Stock": "S/156.80",
-      "Precio": "S/0.50"
+      "Precio": "S/0.50",
+      "Categoria":"Cables"
     },
     {
       "Codigo": "CUA02",
@@ -1040,7 +1125,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/0.34",
       "Costo de Stock": "S/153.00",
-      "Precio": "S/0.50"
+      "Precio": "S/0.50",
+      "Categoria": "Cables"
     },
     {
       "Codigo": "CUA01",
@@ -1050,7 +1136,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/0.34",
       "Costo de Stock": "S/153.00",
-      "Precio": "S/0.50"
+      "Precio": "S/0.50",
+      "Categoria":"Cables"
     },
     {
       "Codigo": "FL.02",
@@ -1060,7 +1147,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/20.00",
       "Costo de Stock": "S/180.00",
-      "Precio": "S/39.00"
+      "Precio": "S/39.00",
+      "Categoria": "Fuentes"
     },
     {
       "Codigo": "FL.01",
@@ -1070,7 +1158,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/16.00",
       "Costo de Stock": "S/128.00",
-      "Precio": "S/28.00"
+      "Precio": "S/28.00",
+      "Categoria": "Fuentes"
     },
     {
       "Codigo": "F.07",
@@ -1080,7 +1169,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/65.00",
       "Costo de Stock": "S/455.00",
-      "Precio": "S/75.00"
+      "Precio": "S/75.00",
+      "Categoria": "Fuentes"
     },
     {
       "Codigo": "F.06",
@@ -1090,7 +1180,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/37.00",
       "Costo de Stock": "S/407.00",
-      "Precio": "S/66.00"
+      "Precio": "S/66.00",
+      "Categoria": "Fuentes"
     },
     {
       "Codigo": "F.05",
@@ -1100,7 +1191,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/29.00",
       "Costo de Stock": "S/116.00",
-      "Precio": "S/55.00"
+      "Precio": "S/55.00",
+      "Categoria": "Fuentes"
     },
     {
       "Codigo": "F.04",
@@ -1110,7 +1202,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/30.00",
       "Costo de Stock": "S/120.00",
-      "Precio": "S/45.00"
+      "Precio": "S/45.00",
+      "Categoria": "Fuentes"
     },
     {
       "Codigo": "F.03",
@@ -1120,7 +1213,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/18.50",
       "Costo de Stock": "S/111.00",
-      "Precio": "S/38.00"
+      "Precio": "S/38.00",
+      "Categoria": "Fuentes"
     },
     {
       "Codigo": "F.02",
@@ -1130,7 +1224,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/15.00",
       "Costo de Stock": "S/165.00",
-      "Precio": "S/29.00"
+      "Precio": "S/29.00",
+      "Categoria": "Fuentes"
     },
     {
       "Codigo": "F.01",
@@ -1140,7 +1235,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/12.00",
       "Costo de Stock": "S/36.00",
-      "Precio": "S/23.00"
+      "Precio": "S/23.00",
+      "Categoria": "Fuentes"
     },
     {
       "Codigo": "A.22",
@@ -1150,7 +1246,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/185.00",
       "Costo de Stock": "S/185.00",
-      "Precio": "S/270.00"
+      "Precio": "S/270.00",
+      "Categoria": "Acrilicos"
     },
     {
       "Codigo": "A.21",
@@ -1160,7 +1257,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/150.00",
       "Costo de Stock": "S/300.00",
-      "Precio": "S/215.00"
+      "Precio": "S/215.00",
+      "Categoria": "Acrilicos"
     },
     {
       "Codigo": "A.20",
@@ -1170,7 +1268,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/115.00",
       "Costo de Stock": "S/115.00",
-      "Precio": "S/160.00"
+      "Precio": "S/160.00",
+      "Categoria": "Acrilicos"
     },
     {
       "Codigo": "A.19",
@@ -1180,7 +1279,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/95.00",
       "Costo de Stock": "S/285.00",
-      "Precio": "S/150.00"
+      "Precio": "S/150.00",
+      "Categoria": "Acrilicos"
     },
     {
       "Codigo": "A.18",
@@ -1190,7 +1290,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/75.00",
       "Costo de Stock": "S/150.00",
-      "Precio": "S/110.00"
+      "Precio": "S/110.00",
+      "Categoria": "Acrilicos"
     },
     {
       "Codigo": "A.17",
@@ -1200,7 +1301,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/95.00",
       "Costo de Stock": "S/47.50",
-      "Precio": "S/140.00"
+      "Precio": "S/140.00",
+      "Categoria": "Acrilicos"
     },
     {
       "Codigo": "A.16",
@@ -1210,7 +1312,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/100.00",
       "Costo de Stock": "S/200.00",
-      "Precio": "S/130.00"
+      "Precio": "S/130.00",
+      "Categoria": "Acrilicos"
     },
     {
       "Codigo": "A.15",
@@ -1220,7 +1323,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/95.00",
       "Costo de Stock": "S/190.00",
-      "Precio": "S/135.00"
+      "Precio": "S/135.00",
+      "Categoria": "Acrilicos"
     },
     {
       "Codigo": "A.14",
@@ -1230,7 +1334,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/120.00",
       "Costo de Stock": "S/240.00",
-      "Precio": "S/175.00"
+      "Precio": "S/175.00",
+      "Categoria": "Acrilicos"
     },
     {
       "Codigo": "A.13",
@@ -1240,7 +1345,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/92.00",
       "Costo de Stock": "S/276.00",
-      "Precio": "S/135.00"
+      "Precio": "S/135.00",
+      "Categoria": "Acrilicos"
     },
     {
       "Codigo": "A.12",
@@ -1250,7 +1356,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/95.00",
       "Costo de Stock": "S/190.00",
-      "Precio": "S/135.00"
+      "Precio": "S/135.00",
+      "Categoria":"Acrilicos"
     },
     {
       "Codigo": "MDDFH7",
@@ -1260,17 +1367,19 @@
       "Tipo": "Nuevo",
       "Costo": "S/95.00",
       "Costo de Stock": "S/95.00",
-      "Precio": "S/135.00"
+      "Precio": "S/135.00",
+      "Categoria":"Acrilicos"
     },
     {
       "Codigo": "A.11",
-      "Producto": "ACRILICODORADO ROSA",
+      "Producto": "ACRILICO DORADO ROSA",
       "Und Medida": "UNIDAD",
       "Stock": "2",
       "Tipo": "Nuevo",
       "Costo": "S/160.00",
       "Costo de Stock": "S/320.00",
-      "Precio": "S/190.00"
+      "Precio": "S/190.00",
+      "Categoria":"Acrilicos"
     },
     {
       "Codigo": "A.10",
@@ -1280,7 +1389,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/120.00",
       "Costo de Stock": "S/0.00",
-      "Precio": "S/175.00"
+      "Precio": "S/175.00",
+      "Categoria":"Acrilicos"
     },
     {
       "Codigo": "A.09",
@@ -1290,7 +1400,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/160.00",
       "Costo de Stock": "S/160.00",
-      "Precio": "S/185.00"
+      "Precio": "S/185.00",
+      "Categoria":"Acrilicos"
     },
     {
       "Codigo": "A.08",
@@ -1300,7 +1411,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/100.00",
       "Costo de Stock": "S/400.00",
-      "Precio": "S/135.00"
+      "Precio": "S/135.00",
+      "Categoria":"Acrilicos"
     },
     {
       "Codigo": "A.07",
@@ -1310,7 +1422,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/95.00",
       "Costo de Stock": "S/190.00",
-      "Precio": "S/140.00"
+      "Precio": "S/140.00",
+      "Categoria":"Acrilicos"
     },
     {
       "Codigo": "A.06",
@@ -1320,7 +1433,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/100.00",
       "Costo de Stock": "S/400.00",
-      "Precio": "S/135.00"
+      "Precio": "S/135.00",
+      "Categoria":"Acrilicos"
     },
     {
       "Codigo": "A.05",
@@ -1330,7 +1444,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/100.00",
       "Costo de Stock": "S/200.00",
-      "Precio": "S/135.00"
+      "Precio": "S/135.00",
+      "Categoria":"Acrilicos"
     },
     {
       "Codigo": "A.04",
@@ -1340,7 +1455,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/100.00",
       "Costo de Stock": "S/1,000.00",
-      "Precio": "S/135.00"
+      "Precio": "S/135.00",
+      "Categoria":"Acrilicos"
     },
     {
       "Codigo": "A.03",
@@ -1350,7 +1466,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/115.00",
       "Costo de Stock": "S/115.00",
-      "Precio": "S/150.00"
+      "Precio": "S/150.00",
+      "Categoria":"Acrilicos"
     },
     {
       "Codigo": "A.02",
@@ -1360,7 +1477,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/109.00",
       "Costo de Stock": "S/218.00",
-      "Precio": "S/140.00"
+      "Precio": "S/140.00",
+      "Categoria":"Acrilicos"
     },
     {
       "Codigo": "CE.03",
@@ -1370,7 +1488,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/12.00",
       "Costo de Stock": "S/24.00",
-      "Precio": "S/20.00"
+      "Precio": "S/20.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CE.02",
@@ -1380,7 +1499,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/12.00",
       "Costo de Stock": "S/24.00",
-      "Precio": "S/20.00"
+      "Precio": "S/20.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CE.01",
@@ -1390,7 +1510,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/12.00",
       "Costo de Stock": "S/12.00",
-      "Precio": "S/20.00"
+      "Precio": "S/20.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CC.126",
@@ -1400,7 +1521,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/50.00",
       "Costo de Stock": "S/150.00",
-      "Precio": "S/75.00"
+      "Precio": "S/75.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "C.RGB.01",
@@ -1410,7 +1532,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/30.00",
       "Costo de Stock": "S/120.00",
-      "Precio": "S/50.00"
+      "Precio": "S/50.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CL.25000K",
@@ -1420,7 +1543,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/20.00",
       "Costo de Stock": "S/900.00",
-      "Precio": "S/35.00"
+      "Precio": "S/35.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CL.07",
@@ -1430,7 +1554,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/16.00",
       "Costo de Stock": "S/16.00",
-      "Precio": "S/27.00"
+      "Precio": "S/27.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CL.15000K",
@@ -1440,7 +1565,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/23.00",
       "Costo de Stock": "S/69.00",
-      "Precio": "S/35.00"
+      "Precio": "S/35.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CLCW.54",
@@ -1450,7 +1576,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/33.00",
       "Costo de Stock": "S/297.00",
-      "Precio": "S/45.00"
+      "Precio": "S/45.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CLY.54",
@@ -1460,7 +1587,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/33.00",
       "Costo de Stock": "S/198.00",
-      "Precio": "S/45.00"
+      "Precio": "S/45.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CLR.54",
@@ -1470,7 +1598,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/33.00",
       "Costo de Stock": "S/99.00",
-      "Precio": "S/45.00"
+      "Precio": "S/45.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CLP.54",
@@ -1480,7 +1609,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/30.00",
       "Costo de Stock": "S/30.00",
-      "Precio": "S/40.00"
+      "Precio": "S/40.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CLB.54",
@@ -1490,7 +1620,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/34.00",
       "Costo de Stock": "S/170.00",
-      "Precio": "S/45.00"
+      "Precio": "S/45.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CG.240",
@@ -1500,7 +1631,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/20.00",
       "Costo de Stock": "S/40.00",
-      "Precio": "S/38.00"
+      "Precio": "S/38.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CP.240",
@@ -1510,7 +1642,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/20.00",
       "Costo de Stock": "S/80.00",
-      "Precio": "S/38.00"
+      "Precio": "S/38.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CB.240",
@@ -1520,7 +1653,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/20.00",
       "Costo de Stock": "S/80.00",
-      "Precio": "S/38.00"
+      "Precio": "S/38.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CWW.240",
@@ -1530,7 +1664,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/20.00",
       "Costo de Stock": "S/120.00",
-      "Precio": "S/38.00"
+      "Precio": "S/38.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CY.240",
@@ -1540,7 +1675,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/20.00",
       "Costo de Stock": "S/20.00",
-      "Precio": "S/38.00"
+      "Precio": "S/38.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CR.240",
@@ -1550,7 +1686,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/20.00",
       "Costo de Stock": "S/0.00",
-      "Precio": "S/38.00"
+      "Precio": "S/38.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CW.240",
@@ -1560,7 +1697,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/20.00",
       "Costo de Stock": "S/80.00",
-      "Precio": "S/38.00"
+      "Precio": "S/38.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CL.06",
@@ -1570,7 +1708,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/16.00",
       "Costo de Stock": "S/80.00",
-      "Precio": "S/27.00"
+      "Precio": "S/27.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CL.05",
@@ -1580,7 +1719,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/16.00",
       "Costo de Stock": "S/64.00",
-      "Precio": "S/27.00"
+      "Precio": "S/27.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CL.04",
@@ -1590,7 +1730,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/16.00",
       "Costo de Stock": "S/128.00",
-      "Precio": "S/27.00"
+      "Precio": "S/27.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CL.03",
@@ -1600,7 +1741,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/16.00",
       "Costo de Stock": "S/272.00",
-      "Precio": "S/27.00"
+      "Precio": "S/27.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CL.02",
@@ -1610,7 +1752,8 @@
       "Tipo": "Nuevo",
       "Costo": "S/16.00",
       "Costo de Stock": "S/208.00",
-      "Precio": "S/27.00"
+      "Precio": "S/27.00",
+      "Categoria":"Cintas"
     },
     {
       "Codigo": "CL.01",
@@ -1620,6 +1763,7 @@
       "Tipo": "Nuevo",
       "Costo": "S/16.00",
       "Costo de Stock": "S/96.00",
-      "Precio": "S/27.00"
+      "Precio": "S/27.00",
+      "Categoria":"Cintas"
     }
   ]

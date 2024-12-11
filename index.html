@@ -13,11 +13,14 @@
     <div class="header">
     <div class="container">
         <div class="navbar">
-          <a href="index.html">  <div class="logo"></a>
-               <a href="index.html"> <img src="images/LOGO_LED.png" width="350px"></a>
-            </div>
-            <nav>
-                <ul id="MenuItems">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="images/LOGO_LED.png" alt="Logo LED Digital" width="350px">
+                </div>
+            </a>
+            <img src="images/menu.png" class="menu-icon" onclick="toggleMenu()">
+            <nav id="MenuItems">
+                <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="products.html">Productos</a></li>
                     <li><a href="about.html">Nosotros</a></li>
@@ -38,11 +41,22 @@
     </div>
 </div>
 
-<!-------- featured categories -------->
+<!-- Categorías Destacadas -->
 <h2 class="categorias-destacadas-titulo">Categorías Destacadas</h2>
 <div id="featured-categories" class="featured-categories">
-    <!-- Las tarjetas de categorías se generarán dinámicamente aquí -->
+    <!-- Contenido dinámico -->
 </div>
+
+<!-- Sección Cotiza -->
+<section id="cotiza" class="section cotiza-section" style="background-image: url('images/COTIZA.jpeg'); background-size: cover; background-position: center;">
+    <div class="container">
+        <h2>Cotiza tu Proyecto</h2>
+        <p>Contáctanos directamente por WhatsApp para cotizar tu proyecto.</p>
+        <a href="https://wa.link/ggb69o" class="whatsapp-btn" target="_blank">Cotizar en WhatsApp</a>
+    </div>
+</section>
+
+<!-- Ofertas -->
 <!-------- Ofertas -------->
 <!-------- Ofertas -------->
 <h2>Ofertas</h2>
@@ -139,20 +153,10 @@
 </div>
 <!------ js for toggle menu-------->
     <script>
-        var MenuItems= document.getElementById("MenuItems");
-
-        MenuItems.style.maxHeight = "0px";
-
-        function menutoggle(){
-            if(MenuItems.style.maxHeight == "0px")
-                {
-                    MenuItems.style.maxHeight = "200px";  
-                }
-            else
-                {
-                    MenuItems.style.maxHeight = "0px";
-
-                }
+        var MenuItems = document.getElementById("MenuItems");
+        
+        function toggleMenu() {
+            MenuItems.classList.toggle("active");
         }
     </script>
     <script type="module" src="main.js" defer></script>

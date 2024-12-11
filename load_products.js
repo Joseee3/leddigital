@@ -8,11 +8,16 @@ document.addEventListener('DOMContentLoaded', function () {
     let products = [];
     let filteredProducts = [];
 
+    // Categorías destacadas
+    const categoriasDestacadas = ["Cintas", "Neon", "Acrilicos", "Wall Panel"];
+
     // Mapeo de categorías a imágenes para index.html
     const categoryImages = {
-        "Acrilicos": "images/categorias/acrilico.JPG",
-        "Perfiles": "images/categorias/perfiles.jpg",
         "Cintas": "images/categorias/cintas.jpg",
+        "Neon": "images/categorias/neon.jpg",
+        "Acrilicos": "images/categorias/acrilico.JPG",
+        "Wall Panel": "images/categorias/wall_panel.jpg",
+        // Añade más categorías si es necesario
     };
 
     // Función para generar las estrellas de calificación
@@ -49,20 +54,27 @@ document.addEventListener('DOMContentLoaded', function () {
                 productElement.classList.add('product-item');
 
                 const precio = product.Precio ? parseFloat(product.Precio.replace('S/', '')) : 0;
-                const costo = product.Costo ? parseFloat(product.Costo.replace('S/', '')) : 0;
+                const precioOferta = product.PrecioOferta ? parseFloat(product.PrecioOferta.replace('S/', '')) : null;
                 const imagePath = product.image ? product.image : 'images/imagen-no-disponible.jpg';
 
                 productElement.innerHTML = `
                     <div class="image-container">
-                        <img src="${imagePath}" alt="${product.Producto}" onerror="this.src='images/imagen-no-disponible.jpg';">
+                        <a href="product-details.html?id=${product.Codigo}">
+                            <img src="${imagePath}" alt="${product.Producto}" onerror="this.src='images/imagen-no-disponible.jpg';">
+                        </a>
                     </div>
                     <div class="product-content">
                         <h4>${product.Producto}</h4>
                         <div class="rating">
                             ${generarEstrellas(product.rating)}
                         </div>
-                        <p style="color: black">S/ ${precio.toFixed(2)}</p>
-                        <a href="https://wa.me/1234567890?text=Hola,%20me%20interesa%20el%20producto%20${encodeURIComponent(product.Producto)}%20por%20S/${precio.toFixed(2)}." class="whatsapp-btn" target="_blank">Consultar en WhatsApp</a>
+                        ${precioOferta ? `
+                            <p style="text-decoration: line-through; color: grey;">S/ ${precio.toFixed(2)}</p>
+                            <p style="color: red;">S/ ${precioOferta.toFixed(2)}</p>
+                        ` : `
+                            <p style="color: black">S/ ${precio.toFixed(2)}</p>
+                        `}
+                        <a href="https://wa.link/ggb69o" class="whatsapp-btn" target="_blank">Consultar en WhatsApp</a>
                     </div>
                 `;
                 productsContainer.appendChild(productElement);
@@ -71,8 +83,8 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
 
-        // Agregar botón para ver más productos solo si estamos en index.html
-        if (max !== null) {
+        // Agregar botón para ver más productos solo si estamos en index.html y hay más productos
+        if (max !== null && productsToRender.length > max) {
             const viewMoreButton = document.createElement('button');
             viewMoreButton.innerText = 'Ver más productos';
             viewMoreButton.classList.add('view-more-btn');
@@ -104,9 +116,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 const imagePath = product.image ? product.image : 'images/imagen-no-disponible.jpg';
 
                 offerElement.innerHTML = `
-                    <div class="image-container">
-                        <img src="${imagePath}" alt="${product.Producto}" onerror="this.src='images/imagen-no-disponible.jpg';">
-                        <span class="offer-badge">Oferta</span>
+                    <div class="image-container product-card">
+                        <a href="product-details.html?id=${product.Codigo}">
+                            <img src="${imagePath}" alt="${product.Producto}" onerror="this.src='images/imagen-no-disponible.jpg';">
+                            <span class="offer-badge">Oferta</span>
+                        </a>
                     </div>
                     <div class="product-content">
                         <h4>${product.Producto}</h4>
@@ -115,13 +129,43 @@ document.addEventListener('DOMContentLoaded', function () {
                         </div>
                         <p class="precio-original">S/ ${precioOriginal.toFixed(2)}</p>
                         <p class="precio-oferta">S/ ${precioOferta.toFixed(2)}</p>
-                        <a href="https://wa.me/1234567890?text=Hola,%20me%20interesa%20el%20producto%20${encodeURIComponent(product.Producto)}%20por%20S/${precioOferta.toFixed(2)}." class="whatsapp-btn" target="_blank">Consultar en WhatsApp</a>
+                        <a href="https://wa.link/ggb69o" class="whatsapp-btn" target="_blank">Consultar en WhatsApp</a>
                     </div>
                 `;
                 offersContainer.appendChild(offerElement);
             } catch (error) {
                 console.error(`Error al renderizar la oferta para el producto ${product.Producto}:`, error);
             }
+        });
+    }
+
+    // Función para renderizar categorías destacadas
+    function renderFeaturedCategories() {
+        if (!featuredCategoriesContainer) return;
+        featuredCategoriesContainer.innerHTML = '';
+
+        categoriasDestacadas.forEach(categoria => {
+            const categoryCard = document.createElement('div');
+            categoryCard.classList.add('category-card');
+            categoryCard.setAttribute('data-category', categoria);
+
+            const imageSrc = categoryImages[categoria] || 'images/categorias/default.jpg';
+
+            categoryCard.innerHTML = `
+                <img src="${imageSrc}" alt="${categoria}">
+                <div class="category-overlay">
+                    <h3>${categoria}</h3>
+                </div>
+            `;
+
+            // Agrega un listener para manejar el clic y redirigir a la categoría correspondiente
+            categoryCard.addEventListener('click', function() {
+                // Guardar la categoría seleccionada en localStorage
+                localStorage.setItem('selectedCategory', categoria);
+                window.location.href = `products.html`;
+            });
+
+            featuredCategoriesContainer.appendChild(categoryCard);
         });
     }
 
@@ -162,56 +206,14 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Función para renderizar categorías destacadas
-    function renderFeaturedCategories(categories, max = null) {
-        if (!featuredCategoriesContainer) return;
-        featuredCategoriesContainer.innerHTML = '';
-        let categoriesToShow = categories;
-
-        if (max !== null) {
-            categoriesToShow = categories.slice(0, max);
-        }
-
-        categoriesToShow.forEach(categoria => {
-            const categoryCard = document.createElement('div');
-            categoryCard.classList.add('category-card');
-            categoryCard.setAttribute('data-category', categoria);
-
-            const imageSrc = categoryImages[categoria] || 'images/categorias/default.jpg';
-
-            categoryCard.innerHTML = `
-                <img src="${imageSrc}" alt="${categoria}">
-                <div class="category-overlay">
-                    <h3>${categoria}</h3>
-                </div>
-            `;
-
-            categoryCard.addEventListener('click', function() {
-                const filtered = products.filter(product => product.Categoria === categoria);
-                renderProducts(filtered);
-            });
-
-            featuredCategoriesContainer.appendChild(categoryCard);
-        });
-
-        // Agregar botón para ver más categorías solo si estamos en index.html
-        if (max !== null) {
-            const viewMoreButton = document.createElement('button');
-            viewMoreButton.innerText = 'Ver más categorías';
-            viewMoreButton.classList.add('view-more-btn');
-            viewMoreButton.addEventListener('click', () => {
-                window.location.href = 'products.html';
-            });
-            featuredCategoriesContainer.appendChild(viewMoreButton);
-        }
-    }
-
     // Función para aplicar búsqueda y filtros
     function applyFilters() {
         if (!searchInput) return;
         const searchTerm = searchInput.value.toLowerCase();
+
+        let selectedCategories = [];
         const activeButtons = categoryFiltersContainer ? categoryFiltersContainer.querySelectorAll('.filter-btn.active') : null;
-        const selectedCategories = activeButtons ? Array.from(activeButtons).map(btn => btn.innerText) : [];
+        selectedCategories = activeButtons ? Array.from(activeButtons).map(btn => btn.innerText) : [];
 
         filteredProducts = products.filter(product => {
             const matchesSearch = product.Producto.toLowerCase().includes(searchTerm);
@@ -247,13 +249,24 @@ document.addEventListener('DOMContentLoaded', function () {
                 const mainProducts = products.filter(product => product.Onsale !== true);
                 renderProducts(mainProducts.slice(0, 9));
 
-                const uniqueCategories = getUniqueCategories(products);
-                renderFeaturedCategories(uniqueCategories, 4); // Mostrar solo 4 categorías en index.html
+                // Renderizar categorías destacadas
+                renderFeaturedCategories();
             } else if (isProductsPage) {
                 renderProducts(filteredProducts);
                 const uniqueCategories = getUniqueCategories(products);
                 createCategoryFilters(uniqueCategories);
-                renderFeaturedCategories(uniqueCategories); // Mostrar todas las categorías en products.html
+
+                // Aplicar filtro de categoría si está almacenado en localStorage
+                const selectedCategory = localStorage.getItem('selectedCategory');
+                if (selectedCategory) {
+                    const button = Array.from(categoryFiltersContainer.querySelectorAll('.filter-btn'))
+                        .find(btn => btn.innerText.toLowerCase() === selectedCategory.toLowerCase());
+
+                    if (button) {
+                        button.click(); // Simular clic en el botón de la categoría
+                        localStorage.removeItem('selectedCategory'); // Limpiar después de aplicar el filtro
+                    }
+                }
             }
         })
         .catch(error => {
@@ -275,50 +288,6 @@ document.addEventListener('DOMContentLoaded', function () {
     if (searchInput) {
         searchInput.addEventListener('input', function() {
             applyFilters();
-        });
-    }
-
-    const modal = document.getElementById('product-modal');
-    const closeButton = modal ? modal.querySelector('.close-button') : null;
-
-    if (modal && closeButton) {
-        productsContainer.addEventListener('click', function(e) {
-            const card = e.target.closest('.product-item');
-            if (card) {
-                const productTitle = card.querySelector('.product-content h4').textContent;
-                const product = products.find(p => p.Producto === productTitle);
-                if (product) {
-                    const precioOriginal = product.Precio ? parseFloat(product.Precio.replace('S/', '')) : 0;
-                    const precioOferta = product.PrecioOferta ? parseFloat(product.PrecioOferta.replace('S/', '')) : precioOriginal;
-                    const costo = product.Costo ? parseFloat(product.Costo.replace('S/', '')) : 0;
-
-                    document.getElementById('modal-image').src = product.image ? product.image : 'images/imagen-no-disponible.jpg';
-                    document.getElementById('modal-title').textContent = product.Producto;
-                    document.getElementById('modal-description').innerHTML = `
-                        <strong>Código:</strong> ${product.Codigo}<br>
-                        <strong>Stock:</strong> ${product.Stock}<br>
-                        <strong>Tipo:</strong> ${product.Tipo}<br>
-                        <strong>Costo:</strong> S/ ${costo.toFixed(2)}<br>
-                        <strong>Precio:</strong> S/ ${precioOferta.toFixed(2)}
-                    `;
-                    document.getElementById('modal-price').textContent = `Precio: S/ ${precioOferta.toFixed(2)}`;
-
-                    const whatsappBtn = document.getElementById('modal-whatsapp-btn');
-                    whatsappBtn.href = `https://wa.me/1234567890?text=Hola,%20me%20interesa%20el%20producto%20${encodeURIComponent(product.Producto)}%20por%20S/${precioOferta.toFixed(2)}.`;
-
-                    modal.style.display = "block";
-                }
-            }
-        });
-
-        closeButton.addEventListener('click', function() {
-            modal.style.display = "none";
-        });
-
-        window.addEventListener('click', function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
         });
     }
 });
