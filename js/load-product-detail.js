@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const stockDisponible = product.Stock > 0 ? 'Disponible' : 'No disponible';
             const stockClass = product.Stock > 0 ? 'text-success' : 'text-danger';
 
-            const whatsappNumber = '1234567890'; // Reemplaza con el número de WhatsApp correcto
+            const whatsappNumber = '985852774'; // Reemplaza con el número de WhatsApp correcto
             const whatsappMessage = `Hola, me interesa el producto ${product.Producto} por S/ ${(precioOferta || precio).toFixed(2)}.`;
 
             const productElement = document.createElement('div');
