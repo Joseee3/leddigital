@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const categoryImages = {
         "Cintas": "images/categorias/CINTACB.jpg",
         "Neon": "images/categorias/NEON.jpg",
-        "Acrilicos": "images/categorias/ACRILICO.JPG",
+        "Acrilicos": "images/categorias/ACRILICO.jpg",
         "Wall Panel": "images/categorias/WALLP.jpg"
     };
 
