@@ -10,8 +10,7 @@
       "Precio": "S/120.00",
       "rating": 4.5,
       "Categoria": "Acrilicos",
-      "Onsale": true,
-      "PrecioOferta": "S/ 100.00"
+      "Onsale": false
     },
     {
       "Codigo": "PERF. A",
@@ -34,9 +33,8 @@
       "Costo": "S/11.00",
       "Costo de Stock": "S/550.00",
       "Precio": "S/20.00",
-        "Categoria": "Perfiles",
-        "Onsale": true,
-        "PrecioOferta": "S/ 10.00"
+      "Categoria": "Perfiles",
+      "Onsale": false
     },
     {
       "Codigo": "PER.P",
@@ -730,6 +728,7 @@
       "Costo": "S/25.00",
       "Costo de Stock": "S/75.00",
       "Precio": "S/30.00",
+      "image": "images/productos/CINTA_COB.psd.png",
       "Categoria": "Cintas"
     },
     {
@@ -741,6 +740,7 @@
       "Costo": "S/25.00",
       "Costo de Stock": "S/75.00",
       "Precio": "S/45.00",
+      "image": "images/productos/CINTA_COB.psd.png",
       "Categoria": "Cintas"
     },
     {
@@ -752,6 +752,7 @@
       "Costo": "S/25.00",
       "Costo de Stock": "S/75.00",
       "Precio": "S/45.00",
+      "image": "images/productos/CINTA_COB.psd.png",
       "Categoria": "Cintas"
     },
     {
@@ -763,6 +764,7 @@
       "Costo": "S/25.00",
       "Costo de Stock": "S/75.00",
       "Precio": "S/45.00",
+      "image": "images/productos/CINTA_COB.psd.png",
       "Categoria": "Cintas"
     },
     {
@@ -774,6 +776,7 @@
       "Costo": "S/25.00",
       "Costo de Stock": "S/75.00",
       "Precio": "S/45.00",
+      "image": "images/productos/CINTA_COB.psd.png",
       "Categoria": "Cintas"
     },
     {
@@ -785,6 +788,7 @@
       "Costo": "S/25.00",
       "Costo de Stock": "S/75.00",
       "Precio": "S/45.00",
+      "image": "images/productos/CINTA_COB.psd.png",
       "Categoria": "Cintas"
     },
     {
