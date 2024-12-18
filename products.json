@@ -551,6 +551,7 @@
       "Costo": "S/17.00",
       "Costo de Stock": "S/0.00",
       "Precio": "S/30.00",
+      "image": "images/productos/NEON.png",
       "Categoria": "Neon"
     },
     {
@@ -584,6 +585,7 @@
       "Costo": "S/17.00",
       "Costo de Stock": "S/187.00",
       "Precio": "S/30.00",
+      "image": "images/productos/NEON.png",
       "Categoria": "Neon"
     },
     {
@@ -800,6 +802,7 @@
       "Costo": "S/11.00",
       "Costo de Stock": "S/55.00",
       "Precio": "S/15.00",
+      "image": "images/productos/NEON_BRILLOSO.png",
       "Categoria": "Neon"
     },
     {
@@ -811,6 +814,8 @@
       "Costo": "S/11.00",
       "Costo de Stock": "S/110.00",
       "Precio": "S/15.00",
+      "image": "images/productos/NEON_BRILLOSO.png",
+
       "Categoria": "Neon"
     },
     {
@@ -822,6 +827,7 @@
       "Costo": "S/11.00",
       "Costo de Stock": "S/55.00",
       "Precio": "S/15.00",
+      "image": "images/productos/NEON_BRILLOSO.png",
       "Categoria": "Neon"
     },
     {
@@ -833,6 +839,7 @@
       "Costo": "S/11.00",
       "Costo de Stock": "S/55.00",
       "Precio": "S/15.00",
+      "image": "images/productos/NEON_BRILLOSO.png",
       "Categoria": "Neon"
     },
     {
@@ -844,6 +851,7 @@
       "Costo": "S/11.00",
       "Costo de Stock": "S/55.00",
       "Precio": "S/15.00",
+      "image": "images/productos/NEON_BRILLOSO.png",
       "Categoria": "Neon"
     },
     {
@@ -855,6 +863,7 @@
       "Costo": "S/11.00",
       "Costo de Stock": "S/55.00",
       "Precio": "S/15.00",
+      "image": "images/productos/NEON_BRILLOSO.png",
       "Categoria": "Neon"
     },
     {
@@ -866,6 +875,7 @@
       "Costo": "S/11.00",
       "Costo de Stock": "S/55.00",
       "Precio": "S/15.00",
+      "image": "images/productos/NEON_BRILLOSO.png",
       "Categoria": "Neon"
     },
     {
@@ -877,6 +887,7 @@
       "Costo": "S/11.00",
       "Costo de Stock": "S/55.00",
       "Precio": "S/15.00",
+      "image": "images/productos/NEON_BRILLOSO.png",
       "Categoria": "Neon"
     },
     {
@@ -888,6 +899,7 @@
       "Costo": "S/50.00",
       "Costo de Stock": "S/250.00",
       "Precio": "S/75.00",
+      "image": "images/productos/NEON_RGB.png",
       "Categoria": "Neon"
     },
     {
@@ -899,6 +911,7 @@
       "Costo": "S/17.00",
       "Costo de Stock": "S/51.00",
       "Precio": "S/30.00",
+      "image": "images/productos/NEON.png",
       "Categoria": "Neon"
     },
     {
@@ -910,6 +923,7 @@
       "Costo": "S/17.00",
       "Costo de Stock": "S/68.00",
       "Precio": "S/30.00",
+      "image": "images/productos/NEON.png",
       "Categoria": "Neon"
     },
     {
@@ -921,6 +935,7 @@
       "Costo": "S/17.00",
       "Costo de Stock": "S/0.00",
       "Precio": "S/30.00",
+      "image": "images/productos/NEON.png",
       "Categoria": "Neon"
     },
     {
@@ -932,6 +947,7 @@
       "Costo": "S/17.00",
       "Costo de Stock": "S/68.00",
       "Precio": "S/30.00",
+      "image": "images/productos/NEON.png",
       "Categoria": "Neon"
     },
     {
@@ -943,6 +959,7 @@
       "Costo": "S/17.00",
       "Costo de Stock": "S/51.00",
       "Precio": "S/30.00",
+      "image": "images/productos/NEON.png",
       "Categoria": "Neon"
     },
     {
@@ -954,6 +971,7 @@
       "Costo": "S/17.00",
       "Costo de Stock": "S/51.00",
       "Precio": "S/30.00",
+      "image": "images/productos/NEON.png",
         "Categoria": "Neon"
     },
     {
@@ -965,6 +983,7 @@
       "Costo": "S/17.00",
       "Costo de Stock": "S/85.00",
       "Precio": "S/30.00",
+      "image": "images/productos/NEON.png",
       "Categoria": "Neon"
     },
     {
@@ -976,6 +995,7 @@
       "Costo": "S/17.00",
       "Costo de Stock": "S/102.00",
       "Precio": "S/30.00",
+      "image": "images/productos/NEON.png",
       "Categoria": "Neon"
     },
     {
@@ -987,6 +1007,7 @@
       "Costo": "S/17.00",
       "Costo de Stock": "S/34.00",
       "Precio": "S/30.00",
+      "image": "images/productos/NEON.png",
       "Categoria": "Neon"
     },
     {
@@ -998,6 +1019,7 @@
       "Costo": "S/60.00",
       "Costo de Stock": "S/180.00",
       "Precio": "S/98.00",
+      "image": "images/productos/NEON_INTELIGENTE.png",
       "Categoria": "Neon"
     },
     {

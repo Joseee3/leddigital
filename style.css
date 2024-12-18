@@ -132,9 +132,30 @@ body {
 }
 
 /* Estilos para las imágenes del producto */
+/* Estilos para la animación de zoom en la imagen */
 .product-image-container img {
-    width: 100%;
-    height: auto;
+    transition: transform 0.3s ease-in-out; /* Transición suave */
+}
+
+.product-image-container img:hover {
+    transform: scale(1.1); /* Zoom hacia afuera */
+}
+
+/* Estilos específicos para el navbar en product_detail.html */
+.navbar-product-detail .nav-link {
+    color: #000000; /* Texto negro */
+}
+
+.navbar-product-detail .nav-link:hover,
+.navbar-product-detail .nav-link.active {
+    color: #ffffff; /* Texto blanco en hover y en enlace activo */
+    background-color: var(--primary-color); /* Fondo azul en hover y en enlace activo */
+    border-radius: 5px;
+}
+
+.navbar-product-detail .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23000000' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    /* Icono del toggler en negro */
 }
 
 /* Ajustes de padding para la información del producto en pantallas pequeñas */
