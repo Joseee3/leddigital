@@ -1,94 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos - LED DIGITAL</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="products.css"> <!-- Archivo CSS específico para productos -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fuentes y Font Awesome -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Tu CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="products.css"> <!-- Archivo CSS específico para productos -->
+    <style>
+        /* Color personalizado */
+        .custom-blue {
+            color: #004aad;
+        }
+        .btn-custom {
+            background-color: #004aad;
+            border: none;
+        }
+        .btn-custom:hover {
+            background-color: #003b8a;
+        }
+    </style>
 </head>
+<body>
 
-    <div class="container">
-        <div class="navbar">
-            <div class="logo">
-                <a href="index.html"> <img src="images/Leddigital.png" width="250px" alt="Logo LED Digital"></a>
-            </div>
-            <nav class="navbar-dark">
-                <ul id="MenuItems">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="products.html">Menu</a></li>
-                    <li><a href="about.html">Nosotros</a></li>
-                    <li><a href="contact.html">Contáctanos</a></li>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/Leddigital.png" width="250px" alt="Logo LED Digital">
+            </a>
+            <button class="navbar-toggler custom-toggler-black" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon navbar-toggler-dark"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="products.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contáctanos</a>
+                    </li>
                 </ul>
-            </nav>
-        </div> 
-    </div>
-
-        <div class="small-container">
-        
-        <div class="row row-2">
-            <h2>Productos</h2>
-        </div>
-    
-        <!-- Buscador y Filtros -->
-        <div class="search-filter-container">
-            <!-- Buscador -->
-            <input type="text" id="search-input" placeholder="Buscar productos..." />
-    
-            <!-- Filtros por Categoría -->
-            <div class="filters">
-                <h3>Filtrar por Categoría</h3>
-                                <!-- Filtros de Categoría -->
-                <div id="category-filters" class="category-filters">
-                    <!-- Los botones de filtro se generarán dinámicamente aquí -->
-                </div>
-                
-                <!-- Contenedor de Productos -->
-                <div id="products-container" class="product-card">
-                    <!-- Los productos se renderizarán dinámicamente aquí -->
-                </div>
-                
             </div>
         </div>
-    
+    </nav>
+
+    <!-- Contenido Principal -->
+    <div class="container my-5">
+        <div class="row mb-4">
+            <h2 class="custom-blue">Productos</h2>
+        </div>
+
+        <!-- Buscador -->
+        <div class="row mb-4">
+                        <!-- Campo de Búsqueda -->
+            <div class="container my-3">
+                <input type="text" id="search-input" class="form-control" placeholder="Buscar productos...">
+            </div>
+        </div>
+
+        <!-- Filtros de Categorías -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div id="category-filters" class="btn-group" role="group">
+                    <button type="button" class="btn btn-outline-primary filter-btn active" data-category="Todos">Todos</button>
+                    <button type="button" class="btn btn-outline-primary filter-btn" data-category="Cintas">Cintas</button>
+                    <button type="button" class="btn btn-outline-primary filter-btn" data-category="Neón">Neón</button>
+                    <button type="button" class="btn btn-outline-primary filter-btn" data-category="Acrílicos">Acrílicos</button>
+                    <button type="button" class="btn btn-outline-primary filter-btn" data-category="Wall Panel">Wall Panel</button>
+                    <!-- Más botones según tus categorías -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Contador de Categoría -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div id="category-counter" class="text-center">
+                    <span class="badge bg-primary">Cargando... (Total: 0 items)</span>
+                </div>
+            </div>
+        </div>
+
         <div class="row" id="products-container">
             <!-- Los productos se cargarán aquí dinámicamente -->
         </div>
+
     </div>
 
     <!-- Footer -->
-    <div class="footer">
+    <footer class="footer bg-dark text-white py-4">
         <div class="container">
             <div class="row">
-                <div class="footer-col-2">
-                    <img src="images/LOGO_LED.png" alt="Logo Footer">
-                    <p>Creamos y transformamos tus espacios con calidad y estilo </p>
+                <div class="col-md-4">
+                    <img src="images/LOGO_LED.png" alt="Logo LED Digital" class="mb-2">
+                    <p>Creamos y transformamos tus espacios con calidad y estilo.</p>
                 </div>
-                <div class="footer-col-3">
-                    <h3>Menú:</h3>
-                    <ul>
-                        <a href="/index.html"><li>Inicio</li></a>
-                        <a href="/products.html"><li>Productos</li></a>
-                        <a href="/about.html"><li>Nosotros</li></a>
+                <div class="col-md-4">
+                    <h5>Menú</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Inicio</a></li>
+                        <li><a href="products.html" class="text-white">Productos</a></li>
+                        <li><a href="about.html" class="text-white">Nosotros</a></li>
                     </ul>
                 </div>
-                <div class="footer-col-4">
-                    <h3>Síguenos:</h3>
-                    <ul>
-                        <a href="https://www.facebook.com/leddigitalpe" target="_blank"><li>Facebook</li></a>
-                        <a href="https://www.instagram.com/leddigital_peru/" target="_blank"><li>Instagram</li></a>
-                        <a href="https://www.tiktok.com/@leddigitalperu?lang=es" target="_blank"><li>TikTok</li></a>
+                <div class="col-md-4">
+                    <h5>Síguenos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.facebook.com/leddigitalpe" target="_blank" class="text-white">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/leddigital_peru/" target="_blank" class="text-white">Instagram</a></li>
+                        <li><a href="https://www.tiktok.com/@leddigitalperu?lang=es" target="_blank" class="text-white">TikTok</a></li>
                     </ul>
                 </div>
             </div>
-            <hr>
-            <p class="Copyright">Copyright 2024 - LED DIGITAL</p>
+            <hr class="bg-white">
+            <p class="text-center mb-0">© 2024 - LED DIGITAL</p>
         </div>
-    </div>
+    </footer>
 
-    <!-- Scripts -->
-    <script src="load_products.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS Personalizados -->
+    <script src="/js/load_products.js" defer></script>
 </body>
 </html>
