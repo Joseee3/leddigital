@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function () {
     let products = [];
     let filteredProducts = [];
 
-    // Categorías destacadas (sin "Ofertas")
     const categoriasDestacadas = ["Cintas", "Neon", "Acrilicos", "Wall Panel"];
 
     // Mapeo de categorías a imágenes para index.html
@@ -271,7 +270,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 card.addEventListener('click', (e) => {
                     // Evitar que el clic en el botón de WhatsApp redirija
                     if (!e.target.closest('a')) {
-                        window.location.href = `product_detail.html?codigo=${encodeURIComponent(product.Codigo)}`;
+                        window.location.href = `product_detail.html?Codigo=${encodeURIComponent(product.Codigo)}`;
                     }
                 });
 

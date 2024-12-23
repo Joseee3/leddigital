@@ -44,7 +44,9 @@ document.addEventListener("DOMContentLoaded", () => {
             const stockClass = product.Stock > 0 ? 'text-success' : 'text-danger';
 
             const whatsappNumber = '985852774'; // Reemplaza con el número de WhatsApp correcto
-            const whatsappMessage = `Hola, me interesa el producto ${product.Producto} por S/ ${(precioOferta || precio).toFixed(2)}.`;
+            const whatsappMessage = precioOferta 
+                ? `Hola, me interesa la oferta del producto ${product.Producto} a S/ ${precioOferta.toFixed(2)}. Más información, por favor.`
+                : `Hola, me interesa el producto ${product.Producto} por S/ ${precio.toFixed(2)}.`;
 
             const productElement = document.createElement('div');
             productElement.classList.add('product-detail');
