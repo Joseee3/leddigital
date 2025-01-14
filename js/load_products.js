@@ -183,105 +183,118 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    // Función para renderizar ofertas
-    function renderOffers(offersToRender, max = 3) {
-        console.log('Rendering offers...');
-        if (!offersContainer) {
-            console.error('Contenedor de ofertas no encontrado.');
-            return;
-        }
-        offersContainer.innerHTML = '';
-
-        const row = document.createElement('div');
-        row.classList.add('row');
-
-        let offersToShow = offersToRender.slice(0, max);
-
-        console.log(`Renderizando ${offersToShow.length} ofertas.`);
-
-        offersToShow.forEach(product => {
-            try {
-                const precioOriginal = product.Precio ? parseFloat(product.Precio.replace('S/', '')) : 0;
-                const precioOferta = product.PrecioOferta ? parseFloat(product.PrecioOferta.replace('S/', '')) : precioOriginal;
-                const imagePath = product.image ? product.image : 'images/imagen-no-disponible.jpg';
-
-                const col = document.createElement('div');
-                col.classList.add('col-md-4', 'mb-4');
-
-                const card = document.createElement('div');
-                card.classList.add('card', 'h-100', 'oferta-card');
-                card.style.cursor = 'pointer';
-
-                const imgContainer = document.createElement('div');
-                imgContainer.classList.add('position-relative');
-
-                const img = document.createElement('img');
-                img.src = imagePath;
-                img.classList.add('card-img-top', 'img-fluid');
-                img.alt = product.Producto;
-                img.onerror = function () {
-                    this.src = 'images/imagen-no-disponible.jpg';
-                };
-
-                const badge = document.createElement('span');
-                badge.classList.add('badge', 'bg-danger', 'position-absolute', 'top-0', 'end-0', 'm-2');
-                badge.textContent = 'Oferta';
-
-                imgContainer.appendChild(img);
-                imgContainer.appendChild(badge);
-
-                const cardBody = document.createElement('div');
-                cardBody.classList.add('card-body', 'd-flex', 'flex-column');
-
-                const title = document.createElement('h5');
-                title.classList.add('card-title');
-                title.textContent = product.Producto;
-
-                const rating = document.createElement('div');
-                rating.classList.add('mb-2');
-                rating.innerHTML = generarEstrellas(product.rating);
-
-                const precioOriginalP = document.createElement('p');
-                precioOriginalP.classList.add('text-muted', 'text-decoration-line-through');
-                precioOriginalP.textContent = `S/ ${precioOriginal.toFixed(2)}`;
-
-                const precioOfertaP = document.createElement('p');
-                precioOfertaP.classList.add('text-danger');
-                precioOfertaP.textContent = `S/ ${precioOferta.toFixed(2)}`;
-
-                const whatsappBtn = document.createElement('a');
-                whatsappBtn.href = "https://wa.link/ggb69o";
-                whatsappBtn.target = "_blank";
-                whatsappBtn.classList.add('btn', 'btn-primary', 'mt-auto');
-                whatsappBtn.textContent = 'Consultar en WhatsApp';
-
-                // Ensamblar la tarjeta
-                cardBody.appendChild(title);
-                cardBody.appendChild(rating);
-                cardBody.appendChild(precioOriginalP);
-                cardBody.appendChild(precioOfertaP);
-                cardBody.appendChild(whatsappBtn);
-                card.appendChild(imgContainer);
-                card.appendChild(cardBody);
-                col.appendChild(card);
-                row.appendChild(col);
-
-                // Listener para abrir detalle del producto
-                card.addEventListener('click', (e) => {
-                    // Evitar que el clic en el botón de WhatsApp redirija
-                    if (!e.target.closest('a')) {
-                        window.location.href = `product_detail.html?Codigo=${encodeURIComponent(product.Codigo)}`;
-                    }
-                });
-
-            } catch (error) {
-                console.error(`Error al renderizar la oferta para el producto ${product.Producto}:`, error);
+               // Función para renderizar ofertas
+        function renderOffers(offersToRender, max = 3) {
+            console.log('Rendering offers...');
+            if (!offersContainer) {
+                console.error('Contenedor de ofertas no encontrado.');
+                return;
             }
-        });
-
-        offersContainer.appendChild(row);
-    }
-
+            offersContainer.innerHTML = '';
+        
+            const row = document.createElement('div');
+            row.classList.add('row');
+        
+            let offersToShow = offersToRender.slice(0, max);
+        
+            console.log(`Renderizando ${offersToShow.length} ofertas.`);
+        
+            if (offersToShow.length === 0) {
+                const noOffersMessage = document.createElement('div');
+                noOffersMessage.classList.add('text-center', 'mt-4');
+        
+                const noOffersImage = document.createElement('img');
+                noOffersImage.src = 'images/ESTAMOS PREPARANDO OFERTAS.png'; // Reemplaza con la ruta de tu imagen
+                noOffersImage.alt = 'Estamos preparando las mejores ofertas para ti';
+                noOffersImage.classList.add('img-fluid');
+        
+                noOffersMessage.appendChild(noOffersImage);
+                offersContainer.appendChild(noOffersMessage);
+                return;
+            }
+        
+            offersToShow.forEach(product => {
+                try {
+                    const precioOriginal = product.Precio ? parseFloat(product.Precio.replace('S/', '')) : 0;
+                    const precioOferta = product.PrecioOferta ? parseFloat(product.PrecioOferta.replace('S/', '')) : precioOriginal;
+                    const imagePath = product.image ? product.image : 'images/imagen-no-disponible.jpg';
+        
+                    const col = document.createElement('div');
+                    col.classList.add('col-md-4', 'mb-4');
+        
+                    const card = document.createElement('div');
+                    card.classList.add('card', 'h-100', 'oferta-card');
+                    card.style.cursor = 'pointer';
+        
+                    const imgContainer = document.createElement('div');
+                    imgContainer.classList.add('position-relative');
+        
+                    const img = document.createElement('img');
+                    img.src = imagePath;
+                    img.classList.add('card-img-top', 'img-fluid');
+                    img.alt = product.Producto;
+                    img.onerror = function () {
+                        this.src = 'images/imagen-no-disponible.jpg';
+                    };
+        
+                    const badge = document.createElement('span');
+                    badge.classList.add('badge', 'bg-danger', 'position-absolute', 'top-0', 'end-0', 'm-2');
+                    badge.textContent = 'Oferta';
+        
+                    imgContainer.appendChild(img);
+                    imgContainer.appendChild(badge);
+        
+                    const cardBody = document.createElement('div');
+                    cardBody.classList.add('card-body', 'd-flex', 'flex-column');
+        
+                    const title = document.createElement('h5');
+                    title.classList.add('card-title');
+                    title.textContent = product.Producto;
+        
+                    const rating = document.createElement('div');
+                    rating.classList.add('mb-2');
+                    rating.innerHTML = generarEstrellas(product.rating);
+        
+                    const precioOriginalP = document.createElement('p');
+                    precioOriginalP.classList.add('text-muted', 'text-decoration-line-through');
+                    precioOriginalP.textContent = `S/ ${precioOriginal.toFixed(2)}`;
+        
+                    const precioOfertaP = document.createElement('p');
+                    precioOfertaP.classList.add('text-danger');
+                    precioOfertaP.textContent = `S/ ${precioOferta.toFixed(2)}`;
+        
+                    const whatsappBtn = document.createElement('a');
+                    whatsappBtn.href = "https://wa.link/ggb69o";
+                    whatsappBtn.target = "_blank";
+                    whatsappBtn.classList.add('btn', 'btn-primary', 'mt-auto');
+                    whatsappBtn.textContent = 'Consultar en WhatsApp';
+        
+                    // Ensamblar la tarjeta
+                    cardBody.appendChild(title);
+                    cardBody.appendChild(rating);
+                    cardBody.appendChild(precioOriginalP);
+                    cardBody.appendChild(precioOfertaP);
+                    cardBody.appendChild(whatsappBtn);
+                    card.appendChild(imgContainer);
+                    card.appendChild(cardBody);
+                    col.appendChild(card);
+                    row.appendChild(col);
+        
+                    // Listener para abrir detalle del producto
+                    card.addEventListener('click', (e) => {
+                        // Evitar que el clic en el botón de WhatsApp redirija
+                        if (!e.target.closest('a')) {
+                            window.location.href = `product_detail.html?Codigo=${encodeURIComponent(product.Codigo)}`;
+                        }
+                    });
+        
+                } catch (error) {
+                    console.error(`Error al renderizar la oferta para el producto ${product.Producto}:`, error);
+                }
+            });
+        
+            offersContainer.appendChild(row);
+        }
     // Función para renderizar categorías destacadas
     function renderFeaturedCategories() {
         console.log('Rendering featured categories...');

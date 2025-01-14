@@ -49,7 +49,7 @@
     "Precio": "S/1.30",
     "Categoria": "Cables",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CABLES/CABLE ROJONEGRO.png"
   },
   {
     "Codigo": "CN16",
@@ -62,7 +62,7 @@
     "Precio": "S/1.30",
     "Categoria": "Cables",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CABLES/CABLE ROJONEGRO.png"
   },
   {
     "Codigo": "AZHU.001",
@@ -75,7 +75,7 @@
     "Precio": "S/5.00",
     "Categoria": "Silicona",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/SILICONAS/SILICONA_NEON.png"
   },
   {
     "Codigo": "AZ.001",
@@ -88,7 +88,7 @@
     "Precio": "S/5.00",
     "Categoria": "Silicona",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/SILICONAS/SILICONA_NEON.png"
   },
   {
     "Codigo": "MO.001",
@@ -101,7 +101,7 @@
     "Precio": "S/5.00",
     "Categoria": "Silicona",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/SILICONAS/SILICONA_NEON.png"
   },
   {
     "Codigo": "FUC.001",
@@ -114,7 +114,7 @@
     "Precio": "S/5.00",
     "Categoria": "Silicona",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/SILICONAS/SILICONA_NEON.png"
   },
   {
     "Codigo": "ROJ.001",
@@ -127,7 +127,7 @@
     "Precio": "S/5.00",
     "Categoria": "Silicona",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/SILICONAS/SILICONA_NEON.png"
   },
   {
     "Codigo": "NA.001",
@@ -140,7 +140,7 @@
     "Precio": "S/5.00",
     "Categoria": "Silicona",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/SILICONAS/SILICONA_NEON.png"
   },
   {
     "Codigo": "AM.001",
@@ -153,7 +153,7 @@
     "Precio": "S/5.00",
     "Categoria": "Silicona",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/SILICONAS/SILICONA_NEON.png"
   },
   {
     "Codigo": "AL.001",
@@ -166,7 +166,7 @@
     "Precio": "S/5.00",
     "Categoria": "Silicona",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/SILICONAS/SILICONA_NEON.png"
   },
   {
     "Codigo": "B.001",
@@ -179,7 +179,7 @@
     "Precio": "S/5.00",
     "Categoria": "Silicona",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/SILICONAS/SILICONA_NEON.png"
   },
   {
     "Codigo": "SIKA.",
@@ -192,7 +192,7 @@
     "Precio": "S/18.00",
     "Categoria": "Silicona",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/SILICONAS/SILICONA_SIKASIL.png"
   },
   {
     "Codigo": "TAR.VER",
@@ -205,7 +205,7 @@
     "Precio": "S/0.10",
     "Categoria": "Tarugos",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/TARUGOS/TARUGOS_VERDE.png"
   },
   {
     "Codigo": "TAR.NAR",
@@ -218,7 +218,7 @@
     "Precio": "S/0.20",
     "Categoria": "Tarugos",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/TARUGOS/TARUGOS_ANARANJADOS.png"
   },
   {
     "Codigo": "TOR6X1",
@@ -231,7 +231,7 @@
     "Precio": "S/0.10",
     "Categoria": "Tornillos",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/TORNILLOS/TORNILLO PUNTA FINA.png"
   },
   {
     "Codigo": "TOR 4.2",
@@ -244,7 +244,7 @@
     "Precio": "S/0.10",
     "Categoria": "Tornillos",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/TORNILLOS/TORNILLO WAFER PUNTA BROCA.png"
   },
   {
     "Codigo": "REM.1/8",
@@ -257,7 +257,7 @@
     "Precio": "S/0.10",
     "Categoria": "Remaches",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/REMACHES/REMACHE 18 x 12.png"
   },
   {
     "Codigo": "CAT",
@@ -283,7 +283,7 @@
     "Precio": "S/1.00",
     "Categoria": "Estaño",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/ESTAÑO/ESTAÑO.png"
   },
   {
     "Codigo": "AB2MM",
@@ -309,7 +309,7 @@
     "Precio": "S/20.00",
     "Categoria": "Perfiles",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/PERFILES/PERFIL CON ALETA 2MT.png"
   },
   {
     "Codigo": "PERF.T",
@@ -322,7 +322,7 @@
     "Precio": "S/20.00",
     "Categoria": "Perfiles",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/PERFILES/PERFIL TRIANGULAR.png"
   },
   {
     "Codigo": "PER.P",
@@ -335,7 +335,7 @@
     "Precio": "S/20.00",
     "Categoria": "Perfiles",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/PERFILES/PERFIL ALUMINIO PLANO 2MT.png"
   },
   {
     "Codigo": "TL",
@@ -348,7 +348,7 @@
     "Precio": "S/13.00",
     "Categoria": "Tubos",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/TUBOS/TUBOS LED.png"
   },
   {
     "Codigo": "PIX",
@@ -361,7 +361,7 @@
     "Precio": "S/60.00",
     "Categoria": "Pixel",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/PIXEL ARTIFICIAL/PIXEL ARTIFICIAL.png"
   },
   {
     "Codigo": "AB.ME..",
@@ -465,7 +465,7 @@
     "Precio": "S/1.30",
     "Categoria": "Cables",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CABLES/CABLE ANARANJADO.png"
   },
   {
     "Codigo": "CB",
@@ -478,7 +478,7 @@
     "Precio": "S/1.30",
     "Categoria": "Cables",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CABLES/CABLE BLANCO.png"
   },
   {
     "Codigo": "WALL.C",
@@ -491,7 +491,7 @@
     "Precio": "S/30.00",
     "Categoria": "Wall Panel",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/WALL PANEL/WALL PANEL CIPRES.png"
   },
   {
     "Codigo": "WALL.P",
@@ -504,7 +504,7 @@
     "Precio": "S/30.00",
     "Categoria": "Wall Panel",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/WALL PANEL/WALL PANEL PINO.png"
   },
   {
     "Codigo": "WALL.N",
@@ -517,7 +517,7 @@
     "Precio": "S/30.00",
     "Categoria": "Wall Panel",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/WALL PANEL/WALL PANEL NEGRO.png"
   },
   {
     "Codigo": "WALL.M",
@@ -530,7 +530,7 @@
     "Precio": "S/30.00",
     "Categoria": "Wall Panel",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/WALL PANEL/WALL PANEL CHOCOLATE.png"
   },
   {
     "Codigo": "T,WF CELU",
@@ -672,9 +672,9 @@
     "Costo de Stock": "S/260.00",
     "Precio": "S/55.00",
     "Categoria": "Reflectores",
-    "Onsale": true,
+    "Onsale": false,
     "PrecioOferta": "S/45.00",
-    "image": "images/productos/OFERTAS/NAVIDAD/OFERTAS_REFLECTOR.png"
+    "image": "images/productos/REFLECTORES/REFLECTOR CUBULL 50W.png"
   },
   {
     "Codigo": "RL.100W",
@@ -687,7 +687,7 @@
     "Precio": "S/80.00",
     "Categoria": "Reflectores",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/REFLECTORES/REFLECTOR CUBULL 100W.png"
   },
   {
     "Codigo": "LT.P5",
@@ -700,7 +700,7 @@
     "Precio": "S/780.00",
     "Categoria": "Letreros",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/LETREROS/LETRERO P5.png"
   },
   {
     "Codigo": "Z1315F",
@@ -713,34 +713,33 @@
     "Precio": "S/200.00",
     "Categoria": "Letreros",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/LETREROS/LETRERO P10.png"
   },
   {
     "Codigo": "TRANSPARENTES",
-    "Producto": "GRINALDA 4W 20 FOCOS TRANPARENTES",
+    "Producto": "GUIRNALDA 4W 20 FOCOS TRANPARENTES",
     "Und Medida": "UNIDAD",
     "Stock": "2",
     "Tipo": "Nuevo",
     "Costo": "S/86.00",
     "Costo de Stock": "S/172.00",
     "Precio": "S/140.00",
-    "Categoria": "Grirnaldas",
+    "Categoria": "Guirrnaldas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/GUIRNALDAS/GUIRNALDAS 4W 20 FOCOS TRANPARENTES.png"
   },
   {
     "Codigo": "PAVONADO",
-    "Producto": "GRIRNALDA 3W PAVONADO 20 FOCOS",
+    "Producto": "GUIRNALDA 3W PAVONADO 20 FOCOS",
     "Und Medida": "UNIDAD",
     "Stock": "2",
     "Tipo": "Nuevo",
     "Costo": "S/72.00",
     "Costo de Stock": "S/144.00",
     "Precio": "S/120.00",
-    "Categoria": "Grirnaldas",
-    "Onsale": true,
-    "PrecioOferta": "S/108.00",
-    "image": "images/productos/OFERTAS/NAVIDAD/OFERTAS_GUIRNALDAS.png"
+    "Categoria": "Guirrnaldas",
+    "Onsale": false,
+    "image": "images/productos/GUIRNALDAS/GUIRNALDAS 3W PAVONADO 20 FOCOS.png"
   },
   {
     "Codigo": "PERA",
@@ -753,7 +752,7 @@
     "Precio": "S/193.00",
     "Categoria": "Grirnaldas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/GUIRNALDAS/GUIRNALDAS 3W 20 FOCOS PERA.png"
   },
   {
     "Codigo": "CORT.LILA",
@@ -766,7 +765,7 @@
     "Precio": "S/50.00",
     "Categoria": "Cortinas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CORTINA/CORTINA.png"
   },
   {
     "Codigo": "COR.BLANCA",
@@ -779,9 +778,8 @@
     "Precio": "S/50.00",
     "Categoria": "Cortinas",
     "Onsale": true,
-    "PrecioOferta": "S/45.00",
-    "image": "images/productos/OFERTAS/NAVIDAD/OFERTAS_CORTINA.png",
-    "rating": 4.0
+    "rating": 4.0,
+    "image": "images/productos/CORTINA/CORTINA.png"
   },
   {
     "Codigo": "CORT.10TIRAS",
@@ -794,7 +792,7 @@
     "Precio": "S/50.00",
     "Categoria": "Cortinas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CORTINA/CORTINA.png"
   },
   {
     "Codigo": "PAA3MM",
@@ -807,7 +805,7 @@
     "Precio": "S/45.00",
     "Categoria": "Perfiles",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/PERFILES/PERFIL DE ALUMINIO SOBREPONER ANCHA 3MM.png"
   },
   {
     "Codigo": "PA3MM",
@@ -820,7 +818,7 @@
     "Precio": "S/37.00",
     "Categoria": "Perfiles",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/PERFILES/PERFIL DE ALUMINIO SOBREPONER ALTA 3MM.png"
   },
   {
     "Codigo": "P.PLANO 3MM",
@@ -833,7 +831,7 @@
     "Precio": "S/32.00",
     "Categoria": "Perfiles",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/PERFILES/PERFIL PLOMO 3MT PLANO 509.png"
   },
   {
     "Codigo": "P.3MM",
@@ -846,7 +844,7 @@
     "Precio": "S/32.00",
     "Categoria": "Perfiles",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/PERFILES/PERFIL CON ALETA 3MT.png"
   },
   {
     "Codigo": "P.PLANO",
@@ -859,7 +857,7 @@
     "Precio": "S/20.00",
     "Categoria": "Perfiles",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/PERFILES/PERFIL NEGRO PLANO 2MT.png"
   },
   {
     "Codigo": "P.N01",
@@ -872,7 +870,7 @@
     "Precio": "S/20.00",
     "Categoria": "Perfiles",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/PERFILES/PERFIL NEGRO CON ALETA 3MT.png"
   },
   {
     "Codigo": "CEL 10MM",
@@ -885,7 +883,7 @@
     "Precio": "S/135.00",
     "Categoria": "Celtex",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CELTEX/CELTEX DE 10MM.png"
   },
   {
     "Codigo": "celt5mm",
@@ -898,7 +896,7 @@
     "Precio": "S/65.00",
     "Categoria": "Celtex",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CELTEX/CELTEX DE 5MM y 3MM.png"
   },
   {
     "Codigo": "CEL3MM",
@@ -911,7 +909,7 @@
     "Precio": "S/35.00",
     "Categoria": "Celtex",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CELTEX/CELTEX DE 5MM y 3MM.png"
   },
   {
     "Codigo": "CCW60",
@@ -924,7 +922,7 @@
     "Precio": "S/30.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 5054"
   },
   {
     "Codigo": "NB",
@@ -950,7 +948,7 @@
     "Precio": "S/30.00",
     "Categoria": "Wall Panel",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/WALL PANEL/WALL PANEL GRIS.png"
   },
   {
     "Codigo": "WALL.B",
@@ -963,7 +961,7 @@
     "Precio": "S/30.00",
     "Categoria": "Wall Panel",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/WALL PANEL/WALL PANEL BLANCO.png"
   },
   {
     "Codigo": "N.C",
@@ -989,7 +987,7 @@
     "Precio": "S/45.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA ZIG ZAG.png"
   },
   {
     "Codigo": "ZIGZAG.RED",
@@ -1002,7 +1000,7 @@
     "Precio": "S/45.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA ZIG ZAG.png"
   },
   {
     "Codigo": "ZIGZAG.LP",
@@ -1015,7 +1013,7 @@
     "Precio": "S/45.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA ZIG ZAG.png"
   },
   {
     "Codigo": "ZIGZAG.PU",
@@ -1028,7 +1026,7 @@
     "Precio": "S/45.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA ZIG ZAG.png"
   },
   {
     "Codigo": "ZIGZAG.IC",
@@ -1041,7 +1039,7 @@
     "Precio": "S/45.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA ZIG ZAG.png"
   },
   {
     "Codigo": "ZIGZAG.DG",
@@ -1054,7 +1052,7 @@
     "Precio": "S/45.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA ZIG ZAG.png"
   },
   {
     "Codigo": "ZIGZAG.WW",
@@ -1067,7 +1065,7 @@
     "Precio": "S/45.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA ZIG ZAG.png"
   },
   {
     "Codigo": "ZIGZAG.B",
@@ -1080,7 +1078,7 @@
     "Precio": "S/45.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA ZIG ZAG.png"
   },
   {
     "Codigo": "ZIGZAG.LY",
@@ -1093,7 +1091,7 @@
     "Precio": "S/45.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA ZIG ZAG.png"
   },
   {
     "Codigo": "ZIGZAG,YE",
@@ -1106,7 +1104,7 @@
     "Precio": "S/45.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA ZIG ZAG.png"
   },
   {
     "Codigo": "ZIGZAG.OR",
@@ -1119,7 +1117,7 @@
     "Precio": "S/45.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA ZIG ZAG.png"
   },
   {
     "Codigo": "COB.1000K",
@@ -1488,7 +1486,7 @@
     "Precio": "S/43.00",
     "Categoria": "Quimicos",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/QUIMICOS/CLOROFORMO.png"
   },
   {
     "Codigo": "CA3M",
@@ -1501,7 +1499,7 @@
     "Precio": "S/5.50",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA AISLANTE.png"
   },
   {
     "Codigo": "C10X10",
@@ -1553,7 +1551,7 @@
     "Precio": "S/2.80",
     "Categoria": "Cables",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CABLES/CABLE VULCANIZADO 16.png"
   },
   {
     "Codigo": "CM.N16",
@@ -1566,7 +1564,7 @@
     "Precio": "S/2.50",
     "Categoria": "Cables",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CABLES/CABLE MELLIZO 16 COBRE.png"
   },
   {
     "Codigo": "CI.N14",
@@ -1579,7 +1577,7 @@
     "Precio": "S/3.50",
     "Categoria": "Cables",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CABLES/CABLE MELLIZO 16 COBRE.png"
   },
   {
     "Codigo": "CUP04",
@@ -1592,7 +1590,7 @@
     "Precio": "S/0.50",
     "Categoria": "Cables",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CABLES/CABLE UNIPOLAR PLOMO.png"
   },
   {
     "Codigo": "CUN03",
@@ -1605,7 +1603,7 @@
     "Precio": "S/0.50",
     "Categoria": "Cables",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CABLES/CABLE UNIPOLAR 16 NEGRO.png"
   },
   {
     "Codigo": "CUA02",
@@ -1618,7 +1616,7 @@
     "Precio": "S/0.50",
     "Categoria": "Cables",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CABLES/CABLE UNIPOLAR 16 AZUL.png"
   },
   {
     "Codigo": "CUA01",
@@ -1631,7 +1629,7 @@
     "Precio": "S/0.50",
     "Categoria": "Cables",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CABLES/CABLE UNIPOLAR 16 AMARILLO.png"
   },
   {
     "Codigo": "FL.02",
@@ -1644,7 +1642,7 @@
     "Precio": "S/39.00",
     "Categoria": "Fuentes",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/FUENTES/FUENTE 12V 10A LAPIZ.png"
   },
   {
     "Codigo": "FL.01",
@@ -1657,7 +1655,7 @@
     "Precio": "S/28.00",
     "Categoria": "Fuentes",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/FUENTES/FUENTE 12V 5A LAPIZ.png"
   },
   {
     "Codigo": "F.07",
@@ -1670,7 +1668,7 @@
     "Precio": "S/75.00",
     "Categoria": "Fuentes",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/FUENTES/FUENTE 12V 40A.png"
   },
   {
     "Codigo": "F.06",
@@ -1683,7 +1681,7 @@
     "Precio": "S/66.00",
     "Categoria": "Fuentes",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/FUENTES/FUENTE 12V 30A.png"
   },
   {
     "Codigo": "F.05",
@@ -1696,7 +1694,7 @@
     "Precio": "S/55.00",
     "Categoria": "Fuentes",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/FUENTES/FUENTE 12V 20A.png"
   },
   {
     "Codigo": "F.04",
@@ -1709,7 +1707,7 @@
     "Precio": "S/45.00",
     "Categoria": "Fuentes",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/FUENTES/FUENTE 12V 15A.png"
   },
   {
     "Codigo": "F.03",
@@ -1722,7 +1720,7 @@
     "Precio": "S/38.00",
     "Categoria": "Fuentes",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/FUENTES/FUENTE 12V 10A.png"
   },
   {
     "Codigo": "F.02",
@@ -1735,7 +1733,7 @@
     "Precio": "S/29.00",
     "Categoria": "Fuentes",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/FUENTES/FUENTE 12V 5A METAL.png"
   },
   {
     "Codigo": "F.01",
@@ -1748,7 +1746,7 @@
     "Precio": "S/23.00",
     "Categoria": "Fuentes",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/FUENTES/FUENTE 12V 5A PLASTICO.png"
   },
   {
     "Codigo": "A.22",
@@ -2047,7 +2045,7 @@
     "Precio": "S/20.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTAS ECONOMICAS.png"
   },
   {
     "Codigo": "CE.02",
@@ -2060,7 +2058,7 @@
     "Precio": "S/20.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTAS ECONOMICAS.png"
   },
   {
     "Codigo": "CE.01",
@@ -2073,7 +2071,7 @@
     "Precio": "S/20.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTAS ECONOMICAS.png"
   },
   {
     "Codigo": "CC.126",
@@ -2086,7 +2084,7 @@
     "Precio": "S/75.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA CORREDIZA.png"
   },
   {
     "Codigo": "C.RGB.01",
@@ -2099,7 +2097,7 @@
     "Precio": "S/50.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 5630 RGB.png"
   },
   {
     "Codigo": "CL.25000K",
@@ -2138,7 +2136,7 @@
     "Precio": "S/35.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA ALTO BRILLO.png"
   },
   {
     "Codigo": "CLCW.54",
@@ -2151,7 +2149,7 @@
     "Precio": "S/45.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 5054.png"
   },
   {
     "Codigo": "CLY.54",
@@ -2164,7 +2162,7 @@
     "Precio": "S/45.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 5054.png"
   },
   {
     "Codigo": "CLR.54",
@@ -2177,7 +2175,7 @@
     "Precio": "S/45.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 5054.png"
   },
   {
     "Codigo": "CLP.54",
@@ -2190,7 +2188,7 @@
     "Precio": "S/40.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 5054.png"
   },
   {
     "Codigo": "CLB.54",
@@ -2203,7 +2201,7 @@
     "Precio": "S/45.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 5054.png"
   },
   {
     "Codigo": "CG.240",
@@ -2216,7 +2214,7 @@
     "Precio": "S/38.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 2835 240L.png"
   },
   {
     "Codigo": "CP.240",
@@ -2229,7 +2227,7 @@
     "Precio": "S/38.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 2835 240L.png"
   },
   {
     "Codigo": "CB.240",
@@ -2242,7 +2240,7 @@
     "Precio": "S/38.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 2835 240L.png"
   },
   {
     "Codigo": "CWW.240",
@@ -2255,7 +2253,7 @@
     "Precio": "S/38.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 2835 240L.png"
   },
   {
     "Codigo": "CY.240",
@@ -2268,7 +2266,7 @@
     "Precio": "S/38.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 2835 240L.png"
   },
   {
     "Codigo": "CR.240",
@@ -2281,7 +2279,7 @@
     "Precio": "S/38.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 2835 240L.png"
   },
   {
     "Codigo": "CW.240",
@@ -2294,7 +2292,7 @@
     "Precio": "S/38.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 2835 240L.png"
   },
   {
     "Codigo": "CL.06",
@@ -2307,7 +2305,7 @@
     "Precio": "S/27.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 2835 120L.png"
   },
   {
     "Codigo": "CL.05",
@@ -2320,7 +2318,7 @@
     "Precio": "S/27.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 2835 120L.png"
   },
   {
     "Codigo": "CL.04",
@@ -2333,7 +2331,7 @@
     "Precio": "S/27.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 2835 120L.png"
   },
   {
     "Codigo": "CL.03",
@@ -2346,7 +2344,7 @@
     "Precio": "S/27.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 2835 120L.png"
   },
   {
     "Codigo": "CL.02",
@@ -2359,7 +2357,7 @@
     "Precio": "S/27.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 2835 120L.png"
   },
   {
     "Codigo": "CL.01",
@@ -2372,6 +2370,6 @@
     "Precio": "S/27.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 2835 120L.png"
   }
 ]
