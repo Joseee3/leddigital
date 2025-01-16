@@ -245,7 +245,7 @@
     "Precio": "S/1.00",
     "Categoria": "Estaño",
     "Onsale": false,
-    "image": "images/productos/ESTAÑO/ESTAÑO.png"
+    "image": "images/productos/ESTAÑO/ESTANO.png"
   },
   {
     "Codigo": "AB2MM",
@@ -780,7 +780,7 @@
     "Precio": "S/65.00",
     "Categoria": "Celtex",
     "Onsale": false,
-    "image": "images/productos/CELTEX/CELTEX DE 5MM y 3MM.png"
+    "image": "images/productos/CELTEX/CELTEX3_5.png"
   },
   {
     "Codigo": "CEL3MM",
@@ -793,7 +793,7 @@
     "Precio": "S/35.00",
     "Categoria": "Celtex",
     "Onsale": false,
-    "image": "images/productos/CELTEX/CELTEX DE 5MM y 3MM.png"
+    "image": "images/productos/CELTEX/CELTEX3_5.png"
   },
   {
     "Codigo": "CCW60",
@@ -806,7 +806,7 @@
     "Precio": "S/30.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "image": "images/productos/CINTA/CINTA 5054"
+    "image": "images/productos/CINTA/CINTA 5054 60 LED.png"
   },
   {
     "Codigo": "NB",
@@ -1396,7 +1396,7 @@
     "Precio": "S/2.20",
     "Categoria": "Canalizaciones",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CANALETA/CANALETA 10 X 10.png"
   },
   {
     "Codigo": "C10X15",
@@ -1409,7 +1409,7 @@
     "Precio": "S/2.50",
     "Categoria": "Canalizaciones",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CANALETA/CANALETA 10 X15.png"
   },
   {
     "Codigo": "TEM.",
@@ -1994,7 +1994,7 @@
     "Precio": "S/35.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 5630.png"
   },
   {
     "Codigo": "CL.07",
@@ -2007,7 +2007,7 @@
     "Precio": "S/27.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "Imagen": "URL_DE_LA_IMAGEN"
+    "image": "images/productos/CINTA/CINTA 2835 120L.png"
   },
   {
     "Codigo": "CL.15000K",
@@ -2020,7 +2020,7 @@
     "Precio": "S/35.00",
     "Categoria": "Cintas",
     "Onsale": false,
-    "image": "images/productos/CINTA/CINTA ALTO BRILLO.png"
+    "image": "images/productos/CINTA/CINTA 5630.png"
   },
   {
     "Codigo": "CLCW.54",
